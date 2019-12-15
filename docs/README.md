@@ -6,7 +6,7 @@ title: Home
 
 > My lab exercises
 
-![Success](./assets/success.png)
+![Success](./assets/VOIP.png)
 
 This is the home page of your VuePress course website.
 
