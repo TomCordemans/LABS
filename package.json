@@ -1,0 +1,25 @@
+{
+  "name": "labs",
+  "version": "0.0.0",
+  "description": "My lab exercises",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Tom Cordemans",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomCordemans/LABS"
+  },
+  "bugs": {
+    "url": "https://github.com/TomCordemans/LABS/issues"
+  },
+  "homepage": "https://github.com/TomCordemans/LABS#readme"
+}
