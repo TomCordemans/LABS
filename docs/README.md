@@ -4,11 +4,9 @@ title: Home
 
 # LABS
 
-> My lab exercises
-
 ![Success](./assets/VOIP.png)
 
-This is the home page of your VuePress course website.
+This home page contains an overview of my lab exercises.
 
 Feel free to style it as you wish.
 
