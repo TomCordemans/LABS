@@ -7,9 +7,7 @@ module.exports = {
       { text: 'Company', link: 'https://www.vives.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [
-      ['/', 'Home'],
-    ],
+    sidebar: [['/', 'Home'], ['/wireless-sniffing/', 'Wireless sniffing']],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
     docsBranch: 'master'
