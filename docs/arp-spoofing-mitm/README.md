@@ -5,7 +5,7 @@ title: ARP spoofing (MITM)
 # ARP spoofing (MITM)
 
 1. Goal
-    1. Intrecept the communication between 2 devices in a switched netweork.
+    1. Intercept the communication between 2 devices in a switched network.
 
 2. Used hardware
     1. 1 laptop with Kali Linux
@@ -18,8 +18,19 @@ title: ARP spoofing (MITM)
 
 
 5. Getting started
-    1. Display the list of available adapters (Kali Linux)
+    1. Get an overview of your network (Kali Linux)
     
-    ![Success](./assets/list_adapters.png)
+    ![Success](./assets/netdiscover_command.png)
 
-Monitor mode allows a wireless network interface controller to monitor all traffic received on a wireless channel.
+    ![Success](./assets/netdiscover_result.png)
+
+    The result shows us the server (192.168.1.1) and the client (192.168.1.101).
+
+    2. Start the communication between the client and the server.
+
+     ![Success](./assets/ping.png)
+    
+    3. Look at the MAC address table of the client
+
+    ![Success](./assets/first_arp.png)
+
