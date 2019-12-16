@@ -48,6 +48,8 @@ title: ARP spoofing (MITM)
 
     6. Launch the MITM attack
 
-    ![Success](./assets/start_MITM.png)
+        1. Start Ettercap
+
+    ![Success](./assets/ettercap.png)
 
 
