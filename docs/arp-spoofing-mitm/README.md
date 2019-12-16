@@ -38,10 +38,16 @@ title: ARP spoofing (MITM)
 
     ![Success](./assets/first_Wireshark.png)
 
-    The result show us no ICMP-traffic destined for the server (192.168.1.1)
+    The result shows us no ICMP-traffic destined for the server (192.168.1.1)
 
-    5. Set ip forwarding (Kali Linux)
+    5. Set IP forwarding (Kali Linux)
     
-    IP forwarding allow an operating system to forward packets as a router does or more generally to route them through other networks.
+    IP forwarding allows an operating system to forward packets as a router does or more generally to route them through other networks.
     
-    
+     ![Success](./assets/ip_forward.png)
+
+    6. Launch the MITM attack
+
+    ![Success](./assets/start_MITM.png)
+
+
