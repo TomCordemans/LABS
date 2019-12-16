@@ -7,7 +7,11 @@ module.exports = {
       { text: 'Company', link: 'https://www.vives.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [['/', 'Home'], ['/wireless-sniffing/', 'Wireless sniffing']],
+    sidebar: [
+      ['/', 'Home'],
+      ['/wireless-sniffing/', 'Wireless sniffing'],
+      ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)']
+    ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
     docsBranch: 'master'
