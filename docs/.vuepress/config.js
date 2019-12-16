@@ -4,7 +4,8 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Company', link: 'https://www.vives.be' },
+      { text: 'VIVES', link: 'https://www.vives.be' },
+      { text: 'ODISEE', link: 'https://www.odisee.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
     sidebar: [

@@ -26,7 +26,7 @@ title: ARP spoofing (MITM)
 
     The result shows us the server (192.168.1.1) and the client (192.168.1.101).
 
-    2. Start the communication between the client and the server.
+    2. Start the communication between the client and the server
 
      ![Success](./assets/ping.png)
     
@@ -39,3 +39,9 @@ title: ARP spoofing (MITM)
     ![Success](./assets/first_Wireshark.png)
 
     The result show us no ICMP-traffic destined for the server (192.168.1.1)
+
+    5. Set ip forwarding (Kali Linux)
+    
+    IP forwarding allow an operating system to forward packets as a router does or more generally to route them through other networks.
+    
+    
