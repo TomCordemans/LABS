@@ -34,3 +34,8 @@ title: ARP spoofing (MITM)
 
     ![Success](./assets/first_arp.png)
 
+    4. Start Wireshark (Kali Linux)
+
+    ![Success](./assets/first_Wireshark.png)
+
+    The result show us no ICMP-traffic destined for the server (192.168.1.1)
