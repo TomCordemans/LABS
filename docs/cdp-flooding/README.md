@@ -15,9 +15,19 @@ title: CDP flooding
     * Kali Linux (2019.4)
 
 4. Setup
+    
+    ![Success](./assets/setup.png)
 
 5. Getting started
-    1. Display the list of available adapters (Kali Linux)
+    1. Check if CDP (Cisco Discovery Protocol) is enabled on the Cisco device.
+    ```
+    Switch#show cdp
+    Global CDP information:
+        Sending CDP packets every 60 seconds
+        Sending a holdtime value of 180 seconds
+        Sending CDPv2 advertisements is enabled
+    Switch#
+    ````
     
-    ![Success](./assets/list_adapters.png)
+
 
