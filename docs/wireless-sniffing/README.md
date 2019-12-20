@@ -5,16 +5,16 @@ title: Wireless sniffing
 # Wireless sniffing
 
 1. Goal
-    1. Collect and analyze wireless traffic.
+    * Collect and analyze wireless traffic.
 
 2. Used hardware
-    1. Alfa AWUS036NHA (Long-range USB Adapter)
-    2. TL-MR3020 (Porable 3G/4G Wireless N Router)
-    3. 1 laptop with Kali Linux
-    4. 1 device with a wireless connection (Smartphone, tablet, ...)
+    * Alfa AWUS036NHA (Long-range USB Adapter)
+    * TL-MR3020 (Porable 3G/4G Wireless N Router)
+    * 1 laptop with Kali Linux
+    * 1 device with a wireless connection (Smartphone, tablet, ...)
 
 3. Used software
-    1. Kali Linux (2019.4)
+    * Kali Linux (2019.4)
 
 4. Setup
 

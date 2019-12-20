@@ -5,14 +5,14 @@ title: ARP spoofing (MITM)
 # ARP spoofing (MITM)
 
 1. Goal
-    1. Intercept the communication between 2 devices in a switched network.
+    * Intercept the communication between 2 devices in a switched network.
 
 2. Used hardware
-    1. 1 laptop with Kali Linux
-    2. 2 devices (Computers, laptops, ...)
+    * 1 laptop with Kali Linux
+    * 2 devices (Computers, laptops, ...)
 
 3. Used software
-    1. Kali Linux (2019.4)
+    * Kali Linux (2019.4)
 
 4. Setup
 

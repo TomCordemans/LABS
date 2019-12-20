@@ -11,7 +11,8 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
-      ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)']
+      ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
+      ['/cdp-flooding/', 'CDP flooding']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
