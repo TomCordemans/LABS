@@ -12,7 +12,6 @@ module.exports = {
       ['/', 'Home'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
       ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
-      ['/cdp-attack/', 'CDP attack'],
       ['/cdp-attack/', 'CDP attack']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
