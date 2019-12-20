@@ -28,6 +28,26 @@ title: CDP flooding
         Sending CDPv2 advertisements is enabled
     Switch#
     ````
+    2. Check the CPU of the Cisco device
+    ```
+    Switch#show processes cpu history
+
+                         11111
+          444445555577777444445555577777444445555555555555555555544444
+    100
+    90
+    80
+    70
+    60
+    50
+    40
+    30
+    20
+    10      *************************     ********************
+         0....5....1....1....2....2....3....3....4....4....5....5....6
+                   0    5    0    5    0    5    0    5    0    5    0
+                   CPU% per second (last 60 seconds)
+    ```
     
 
 
