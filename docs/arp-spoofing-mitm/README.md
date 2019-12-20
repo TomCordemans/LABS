@@ -50,6 +50,12 @@ title: ARP spoofing (MITM)
 
         1. Start Ettercap
 
-    ![Success](./assets/ettercap.png)
+        ![Success](./assets/ettercap.png)
+
+        2. Select Sniff - Unified sniffing - eth0
+
+        3. Select Hosts - Scan for hosts
+
+        
 
 
