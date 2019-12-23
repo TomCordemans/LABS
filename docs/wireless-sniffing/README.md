@@ -18,6 +18,8 @@ title: Wireless sniffing
 
 4. Setup
 
+![Success](./assets/setup.png)
+
 5. Getting started
     1. Display the list of available adapters (Kali Linux)
     
