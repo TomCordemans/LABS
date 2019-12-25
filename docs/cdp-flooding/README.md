@@ -5,7 +5,7 @@ title: CDP flooding
 # CDP flooding
 
 1. Goal
-    * Saturize the CPU of a Cisco device.
+    * To saturate the CPU of a Cisco device.
 
 2. Used hardware
     * 1 laptop with Kali Linux
