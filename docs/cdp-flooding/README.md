@@ -51,6 +51,8 @@ title: CDP flooding
                    CPU% per second (last 60 seconds)
     ```
     3. Install Yersinia on Kali Linux (if necessary)
+   
+    [More information about Yersinia](https://tools.kali.org/vulnerability-analysis/yersinia)
     ```
     root@kali:~# apt-get update
     root@kali:~# apt-get upgrade
