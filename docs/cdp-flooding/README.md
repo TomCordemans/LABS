@@ -20,6 +20,8 @@ title: CDP flooding
 
 5. Getting started
     1. Check if CDP (Cisco Discovery Protocol) is enabled on the Cisco device.
+    
+    [More information about CDP](https://en.wikipedia.org/wiki/Cisco_Discovery_Protocol)
     ```
     Switch#show cdp
     Global CDP information:
