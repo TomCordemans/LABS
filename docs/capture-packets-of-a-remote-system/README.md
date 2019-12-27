@@ -30,11 +30,34 @@ title: Capture packets of a remote system
 
     ![Success](./assets/services.png)
 
-    3. Add a firewall rule to the host-based firewall of the remote system (if necessary)
+    3. Add a firewall rule to the host-based firewall of the remote system (if necessary).
 
     ![Success](./assets/firewall.png)
-        
 
-    6. Conclusion
+    4. Open Wireshark on your local system and select "Capture" followed by "Options".
+
+      ![Success](./assets/wireshark1.png)
     
-    It is recommended to disable CDP whenever possible.Please add content to this empty page.
+    5. Select "Manage Interfaces" followed by "Remote Interfaces".
+
+    ![Success](./assets/wireshark2.png)
+
+    6. Select "+" and add the needed information.
+
+    ![Success](./assets/wireshark3.png)
+
+    7. The following result appears. Confirm this window.
+
+    ![Success](./assets/wireshark4.png)
+
+    8. Look for the right interface and start the capture.
+
+    ![Success](./assets/wireshark5.png)
+
+    9. The result is a succesfull remote capture.
+
+    ![Success](./assets/wireshark6.png)
+    
+6. Conclusion
+    
+    Besides the regular capturing methods (SPAN, TAP, HUB,... ) this method also provides some possibilities.   
