@@ -79,7 +79,7 @@ title: ARP spoofing (MITM)
 
     The MAC address table of the client is poisonend. (192.168.1.10 is our Kali)
 
-    ![Success](./assets/second_arp.PNG)
+    ![Success](./assets/second_arp.png)
 
 6. Conclusion
     
