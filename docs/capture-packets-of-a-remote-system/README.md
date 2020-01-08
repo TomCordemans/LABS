@@ -36,27 +36,27 @@ title: Capture packets of a remote system
 
     4. Open Wireshark on your local system and select "Capture" followed by "Options".
 
-      ![Success](./assets/wireshark1.png)
+      ![Success](./assets/Wireshark1.png)
     
     5. Select "Manage Interfaces" followed by "Remote Interfaces".
 
-    ![Success](./assets/wireshark2.png)
+    ![Success](./assets/Wireshark2.png)
 
     6. Select "+" and add the needed information.
 
-    ![Success](./assets/wireshark3.png)
+    ![Success](./assets/Wireshark3.png)
 
     7. The following result appears. Confirm this window.
 
-    ![Success](./assets/wireshark4.png)
+    ![Success](./assets/Wireshark4.png)
 
     8. Look for the right interface and start the capture.
 
-    ![Success](./assets/wireshark5.png)
+    ![Success](./assets/Wireshark5.png)
 
     9. The result is a succesfull remote capture.
 
-    ![Success](./assets/wireshark6.png)
+    ![Success](./assets/Wireshark6.png)
     
 6. Conclusion
     

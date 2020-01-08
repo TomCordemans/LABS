@@ -37,7 +37,7 @@ title: ARP spoofing (MITM)
 
     4. Start Wireshark (Kali Linux)
 
-    ![Success](./assets/first_wireshark.png)
+    ![Success](./assets/first_Wireshark.png)
 
     The result shows us no ICMP traffic destined for the server (192.168.1.2).
 
@@ -51,7 +51,7 @@ title: ARP spoofing (MITM)
 
         1. Start Ettercap.
 
-        ![Success](./assets/ettercap.png)
+        ![Success](./assets/Ettercap.png)
 
         2. Select the correct sniffing method and interface.
 
