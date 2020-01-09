@@ -6,7 +6,7 @@ title: Home
 
 ![Success](./assets/VOIP.png)
 
-This home page contains an overview of my lab exercises.
+This home page contains some additional lab exercises.
 
 Feel free to use them.
 
