@@ -16,7 +16,8 @@ module.exports = {
       [
         '/capture-packets-of-a-remote-system/',
         'Capture packets of a remote system'
-      ]
+      ],
+      ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
