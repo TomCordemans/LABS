@@ -9,22 +9,24 @@ title: DHCP starvation
      
 2. Used hardware
     * 1 laptop with Kali Linux
+    * 1 DHCP server (Can also be a router)
 
 3. Used software
     * Kali Linux (2019.4)
 
 4. Setup
     
-    ![Success](./assets/TLS.png)
+    ![Success](./assets/setup.png)
 
 5. Getting started
     
-    1. Install Yersinia (Kali Linux).
-
-     [More information about Yersinia](https://tools.kali.org/vulnerability-analysis/yersinia/)
-        
+    1. Install Yersinia on Kali Linux (if necessary)
+   
+    [More information about Yersinia](https://tools.kali.org/vulnerability-analysis/yersinia)
     ```
-    root@kali:~# apt-get install yersinia 
+    root@kali:~# apt-get update
+    root@kali:~# apt-get upgrade
+    root@kali:~# apt-get install yersinia
     ```
 
     2. Check the statistics of the DHCP server (DHCP Server).
@@ -94,5 +96,5 @@ title: DHCP starvation
 
 6. Conclusion
     
-Once Wireshark and your environment are set up properly, it is a piece of cake to view decrypted data.   
+A DHCP starvation attack is easily launched. To mitigate this kind of attack several options are available.   
 
