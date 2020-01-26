@@ -32,7 +32,7 @@ title: DHCP starvation
     2. Check the statistics of the DHCP server (DHCP Server).
 
     We will use Windows Powershell to complete this task.
-    
+        
     ```powershell
     Get-DhcpServer4Statistics
 
@@ -69,7 +69,7 @@ title: DHCP starvation
       ![Success](./assets/dhcp.png)
     
     5. Start the attack and look at the statistics of the DHCP server (DHCP Server).
-
+    
     ```powershell
     Get-DhcpServer4Statistics
 
