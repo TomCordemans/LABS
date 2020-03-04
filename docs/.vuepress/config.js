@@ -18,7 +18,8 @@ module.exports = {
         'Capture packets of a remote system'
       ],
       ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'],
-      ['/dhcp-starvation/', 'DHCP starvation']
+      ['/dhcp-starvation/', 'DHCP starvation'],
+      ['/mac-flooding/', 'mac flooding']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
