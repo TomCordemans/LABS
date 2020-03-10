@@ -42,16 +42,17 @@ title: Decryption of TLS sessions
     ```powershell
     New-Item C:\Users\Student\Desktop\keys.txt
     ```
-    
-    3. Start Wireshark and capture traffic.
+    3. Reboot your system.
+
+    4. Start Wireshark and capture traffic.
 
     ![Success](./assets/capture.png)
 
-    4. Open Firefox and go to a website.
+    5. Open Firefox and go to a website.
 
       ![Success](./assets/website.png)
     
-    5. Stop the capture and look for the correct session.
+    6. Stop the capture and look for the correct session.
 
     First, we look for frames that are containing the word "wireshark".
 
@@ -65,11 +66,11 @@ title: Decryption of TLS sessions
 
     ![Success](./assets/encrypted.png)
 
-    6. Configure the key log file in Wireshark.
+    7. Configure the key log file in Wireshark.
 
     ![Success](./assets/preferences.png)
 
-    7. Look at the result. (TLS decrypted).
+    8. Look at the result. (TLS decrypted).
 
     ![Success](./assets/decrypted.png)
    
