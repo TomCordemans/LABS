@@ -10,16 +10,16 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Home'],
-      ['/wireless-sniffing/', 'Wireless sniffing'],
       ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
-      ['/cdp-flooding/', 'CDP flooding'],
       [
         '/capture-packets-of-a-remote-system/',
         'Capture packets of a remote system'
       ],
+      ['/cdp-flooding/', 'CDP flooding'],
       ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'],
       ['/dhcp-starvation/', 'DHCP starvation'],
-      ['/mac-flooding/', 'MAC flooding']
+      ['/mac-flooding/', 'MAC flooding'],
+      ['/wireless-sniffing/', 'Wireless sniffing']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
