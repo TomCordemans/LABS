@@ -145,7 +145,7 @@ title: MAC flooding
 
     Switch# 
     ```
-    9. Check Wireshark. (Kali Linux)
+    9. Check Wireshark.
 
     ![Success](./assets/capture2.png)
 
