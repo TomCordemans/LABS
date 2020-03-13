@@ -153,4 +153,4 @@ title: MAC flooding
 
 6. Conclusion
     
-    It is easy to change the behavior of switch to the behavior of a hub.
+    It is easy to change the behavior of a switch to the behavior of a hub.

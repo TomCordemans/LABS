@@ -19,7 +19,7 @@ module.exports = {
       ],
       ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'],
       ['/dhcp-starvation/', 'DHCP starvation'],
-      ['/mac-flooding/', 'mac flooding']
+      ['/mac-flooding/', 'MAC flooding']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
