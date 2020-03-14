@@ -8,19 +8,10 @@ module.exports = {
       { text: 'ODISEE', link: 'https://www.odisee.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [
-      ['/', 'Home'],
-      ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
-      [
-        '/capture-packets-of-a-remote-system/',
-        'Capture packets of a remote system'
-      ],
-      ['/cdp-flooding/', 'CDP flooding'],
-      ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'],
-      ['/dhcp-starvation/', 'DHCP starvation'],
-      ['/mac-flooding/', 'MAC flooding'],
-      ['/wireless-sniffing/', 'Wireless sniffing']
-    ],
+    sidebar: [['/', 'Home'], ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'], [
+      '/capture-packets-of-a-remote-system/',
+      'Capture packets of a remote system'
+    ], ['/cdp-flooding/', 'CDP flooding'], ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'], ['/dhcp-starvation/', 'DHCP starvation'], ['/mac-flooding/', 'MAC flooding'], ['/wireless-sniffing/', 'Wireless sniffing'], ['/wireless-capturing/', 'Wireless capturing']],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
     docsBranch: 'master'
