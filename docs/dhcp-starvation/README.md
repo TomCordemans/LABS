@@ -96,5 +96,5 @@ title: DHCP starvation
 
 6. Conclusion
     
-A DHCP starvation attack is easily launched. To mitigate this kind of attack several options are available.   
+    * A DHCP starvation attack is easily launched. To mitigate this kind of attack several options are available.   
 

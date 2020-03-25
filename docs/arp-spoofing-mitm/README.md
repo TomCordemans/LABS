@@ -83,7 +83,7 @@ title: ARP spoofing (MITM)
 
 6. Conclusion
     
-    A man-in-the-middle attack (MITM) is easy to establish and hard to detect.
+    * A man-in-the-middle attack (MITM) is easy to establish and hard to detect.
         
 
 

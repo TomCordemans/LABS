@@ -77,6 +77,6 @@ title: Wireless capturing
 
 6. Conclusion
 
-It is perfectly possible to capture wireless networks cheaply.
+    * It is perfectly possible to capture wireless networks cheaply.
 
     

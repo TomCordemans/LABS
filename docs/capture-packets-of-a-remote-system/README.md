@@ -60,4 +60,4 @@ title: Capture packets of a remote system
     
 6. Conclusion
     
-    Besides the regular capturing methods (SPAN, TAP, HUB,... ) this method also provides some possibilities.   
+    * Besides the regular capturing methods (SPAN, TAP, HUB,... ) this method also provides some possibilities.   

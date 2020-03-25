@@ -99,4 +99,4 @@ title: CDP flooding
     ```
     6. Conclusion
     
-    It is recommended to disable CDP whenever possible.
+    * It is recommended to disable CDP whenever possible.
