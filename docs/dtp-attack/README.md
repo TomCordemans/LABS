@@ -83,6 +83,8 @@ title: DTP attack
     Port        Vlans in spanning tree forwarding state and not pruned
     Gi0/2       1,10,20
     Switch#
+    ```
+    
 6. Conclusion
 
     * Protect your access ports!
