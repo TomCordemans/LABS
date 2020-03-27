@@ -6,8 +6,7 @@ title: Attack the SAM database
 
 1. Goal
     * Recover the password of a user that uses Microsoft Windows as operating system.
-      (online attack and offine attack)  
-
+    
 2. Used hardware
     * 1 laptop with Kali Linux
     * 1 laptop with Microsoft Windows (user)  
