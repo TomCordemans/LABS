@@ -82,7 +82,6 @@ title: ARP spoofing (MITM)
     ![Success](./assets/last_arp.png)
 
 6. Conclusion
-    
     * A man-in-the-middle attack (MITM) is easy to establish and hard to detect.
         
 

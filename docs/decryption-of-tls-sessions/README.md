@@ -75,5 +75,4 @@ title: Decryption of TLS sessions
     ![Success](./assets/decrypted.png)
    
 6. Conclusion
-    
     * Once Wireshark and your environment are set up properly, it is a piece of cake to view decrypted data.   

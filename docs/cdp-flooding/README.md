@@ -97,6 +97,5 @@ title: CDP flooding
                  0    5    0    5    0    5    0    5    0    5    0
                  CPU% per second (last 60 seconds)
     ```
-    6. Conclusion
-    
+6. Conclusion 
     * It is recommended to disable CDP whenever possible.

@@ -152,5 +152,4 @@ title: MAC flooding
     The result shows us ICMP traffic destined for the server (192.168.1.4).
 
 6. Conclusion
-    
     * It is easy to change the behavior of a switch to the behavior of a hub.

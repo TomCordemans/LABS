@@ -78,5 +78,4 @@ title: Attack the SAM database
             ![Success](./assets/hash.png)
 
 6. Conclusion
-
     * Never leave your computer unattended!

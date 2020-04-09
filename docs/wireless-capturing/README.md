@@ -76,7 +76,6 @@ title: Wireless capturing
     ![Success](./assets/wireshark2.png)
 
 6. Conclusion
-
     * It is perfectly possible to capture wireless networks cheaply.
 
     

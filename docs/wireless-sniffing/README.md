@@ -158,5 +158,4 @@ title: Wireless sniffing
         root@kali:~#
         ```
 6. Conclusion
-    
     * Pre-shared key WPA and WPA2 remain vulnerable to password cracking attacks if users rely on a weak password or passphrase.
