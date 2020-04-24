@@ -17,14 +17,14 @@ module.exports = {
         'Capture packets of a remote system'
       ],
       ['/cdp-flooding/', 'CDP flooding'],
+      ['/data-exfiltration/', 'Data exfiltration'],
       ['/decryption-of-tls-sessions/', 'Decryption of TLS sessions'],
       ['/dhcp-starvation/', 'DHCP starvation'],
       ['/dtp-attack/', 'DTP attack'],
       ['/mac-flooding/', 'MAC flooding'],
       ['/metasploit-framework/', 'Metasploit Framework'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
-      ['/wireless-capturing/', 'Wireless capturing'],
-      ['/data-exfiltration/', 'Data exfiltration']
+      ['/wireless-capturing/', 'Wireless capturing']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
