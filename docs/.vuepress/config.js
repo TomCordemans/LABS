@@ -23,7 +23,8 @@ module.exports = {
       ['/mac-flooding/', 'MAC flooding'],
       ['/metasploit-framework/', 'Metasploit Framework'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
-      ['/wireless-capturing/', 'Wireless capturing']
+      ['/wireless-capturing/', 'Wireless capturing'],
+      ['/data-exfiltration/', 'Data exfiltration']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
