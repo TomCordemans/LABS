@@ -20,7 +20,7 @@ title: Password guessing attack
 
 5. Getting started
 
-    1. The username (root) is already obsolete and de the IP address of the switch is 192.168.1.254.
+    1. The username (root) is already obsolete and the IP address of the switch is 192.168.1.254.
     
     2. Check the SSH connection of the switch.
 
@@ -66,4 +66,4 @@ title: Password guessing attack
      ```
 
 6. Conclusion
-    * Protect your SSH connections well! (Management VLAN, strong password, restrict access, ...)
+    * Protect your SSH connections well! (Management VLAN, strong passwords, restrict access, ...)
