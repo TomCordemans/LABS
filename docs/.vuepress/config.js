@@ -23,6 +23,7 @@ module.exports = {
       ['/dtp-attack/', 'DTP attack'],
       ['/mac-flooding/', 'MAC flooding'],
       ['/metasploit-framework/', 'Metasploit Framework'],
+      ['/password-guessing-attack/', 'Password guessing attack'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
       ['/wireless-capturing/', 'Wireless capturing']
     ],
