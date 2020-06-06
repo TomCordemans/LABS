@@ -22,7 +22,7 @@ title: Decryption of TLS sessions
     
     1. Set the environment variable SSLKEYLOGFILE.
 
-    [More information about TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security/)
+    [More information about TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 
     We will use Windows Powershell to complete this task.
     
