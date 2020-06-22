@@ -24,6 +24,7 @@ module.exports = {
       ['/mac-flooding/', 'MAC flooding'],
       ['/metasploit-framework/', 'Metasploit Framework'],
       ['/password-guessing-attack/', 'Password guessing attack'],
+      ['/steganography/', 'Steganography'],
       ['/wireless-sniffing/', 'Wireless sniffing'],
       ['/wireless-capturing/', 'Wireless capturing']
     ],
