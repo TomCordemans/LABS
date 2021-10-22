@@ -5,7 +5,7 @@ title: Wireless capturing
 # Wireless capturing
 
 1. Goal
-    * Capture and analyze wireless traffic.
+    * Capture, analyze and decrypt wireless traffic.
 
 2. Used hardware
     * Alfa AWUS036NHA (Long-range USB Adapter)
@@ -74,6 +74,18 @@ title: Wireless capturing
     4. Check the result.
 
     ![Success](./assets/wireshark2.png)
+
+    5. Decrypt wireless traffic in Wireshark.
+
+        1. Go to Edit -> Preferences -> Protocols -> IEEE 802.11.
+        ![Success](./assets/decrypt1.png)
+
+        2. Click on the "Edit..." button next to "Decryption Keys" to add keys.
+        ![Success](./assets/decrypt2.png)
+
+        3. Check the decrypted wireless traffic
+        ![Success](./assets/decrypt3.png)
+        [More information about decrypting IEEE 802.11](https://gitlab.com/wireshark/wireshark/-/wikis/HowToDecrypt802.11)
 
 6. Conclusion
     * It is perfectly possible to capture wireless networks cheaply.
