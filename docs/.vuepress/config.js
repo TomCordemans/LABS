@@ -11,6 +11,7 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Home'],
+      ['/wireshark/', 'Wireshark course']
       ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
       ['/attack-the-sam-database/', 'Attack the SAM database'],
       [
