@@ -10,7 +10,7 @@ This course introduces you to the fundamental skills needed to use Wireshark eff
     
 1. What is Wireshark
 
-Wireshark is an application known as a "packet sniffer" and "protocol analyzer," designed to capture and analyze data on a network. It is a the successor of the once widely used Ethereal. The functionality of Wireshark is somewhat similar to the tcpdump tool, but it provides a GUI and additional functionality for sorting, filtering and visualising data.   
+Wireshark is an application known as a "packet sniffer" and "protocol analyzer," designed to capture and analyze data on a network. It is a the successor of the once widely used Ethereal. The functionality of Wireshark is somewhat similar to the [tcpdump](https://www.tcpdump.org/) tool, but it provides a GUI and additional functionality for sorting, filtering and visualising data.   
 
 The figure below shows the main window of Wireshark with the differtent toolbars and panes.
 ![Success](./assets/main.png)
