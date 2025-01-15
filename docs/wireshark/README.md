@@ -7,11 +7,10 @@ title: Wireshark course
 1. Introduction
 
 This course introduces you to the fundamental skills needed to use Wireshark effectively. It covers the most commonly used protocols and explores a variety of intriguing problems. To enhance your learning experience, the course incorporates practical exercises to share as much expertise as possible.   
-
-   1. What is Wireshark?
-
-   2. When to use Wireshark?
-
+    1. What is Wireshark
+    2. When to use Wireshark
+    3. First exploration
+        
 2. Getting Wireshark ready
 
 3. How and where to capture
