@@ -10,10 +10,12 @@ This course introduces you to the fundamental skills needed to use Wireshark eff
     
     1. What is Wireshark
 
+    Wireshark is an application known as a "packet sniffer" and "protocol analyzer," designed to capture and analyze data on a network. It is a the successor of the once widely used Ethereal.   
+
     2. When to use Wireshark
 
     3. First exploration
-    
+
 
 2. Getting Wireshark ready
 
