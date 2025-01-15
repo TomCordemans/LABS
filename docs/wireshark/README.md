@@ -6,7 +6,7 @@ title: Wireshark course
 
 This course introduces you to the fundamental skills needed to use Wireshark effectively. It covers the most commonly used protocols and explores a variety of intriguing problems. To enhance your learning experience, the course incorporates practical exercises to share as much expertise as possible.   
 
-##  Introduction
+### Introduction
     
 1. What is Wireshark
 
@@ -21,20 +21,20 @@ The figure below shows the main window of Wireshark with the differtent toolbars
 3. First exploration
 
 
-## Getting Wireshark ready
+### Getting Wireshark ready
 
-## How and where to capture
+### How and where to capture
 
-## Using display filters
+### Using display filters
 
-## Tables and graphs
+### Tables and graphs
 
-## Extract data out of network traffic
+### Extract data out of network traffic
 
-## Straight from practice
+### Straight from practice
 
-## Wireless LAN
+### Wireless LAN
 
-## Nice to know
+### Nice to know
 
-## Other sources
+### Other sources
