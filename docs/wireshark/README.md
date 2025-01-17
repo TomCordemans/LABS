@@ -24,11 +24,11 @@ Wireshark is available under an open-source license and is compatible with multi
 
 ![Success](./assets/visual.png)
 
-The “Qt” provides a platform independent graphical user interface for Wireshark.   
-The “Core engine” supports thousands of dissectors and puts everything in a readable format.   
-The “Dumpcap capture engine” determines how the capture process starts and stops.   
-The “libpcap/Npcap” is a specific driver that takes the frames from the network and offers them to the “Dumpcap capture engine”.   
-When you open a saved pcapng file in Wireshark, you use the “Wiretap library” to offer the saved frames to the “Core engine”.   
+**Qt** provides a platform independent graphical user interface for Wireshark.   
+The **Core engine** supports thousands of dissectors and puts everything in a readable format.   
+The **Dumpcap capture engine** determines how the capture process starts and stops.   
+The **libpcap/Npcap** is a specific driver that takes the frames from the network and offers them to the **Dumpcap capture engine**.   
+When you open a saved pcapng file in Wireshark, you use the **Wiretap library** to offer the saved frames to the **Core engine**.   
 
 
 
