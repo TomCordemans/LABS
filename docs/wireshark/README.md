@@ -22,6 +22,7 @@ Beyond merely displaying network traffic, Wireshark has the capability to interp
 
 Wireshark is available under an open-source license and is compatible with multiple platforms, including Windows, Unix, Unix-like systems such as Linux, and macOS. It utilizes Npcap/libpcap to capture network traffic.   
 
+![Success](./assets/visual.png)
 
 2. When to use Wireshark
 
