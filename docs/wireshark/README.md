@@ -30,9 +30,18 @@ Wireshark is available under an open-source license and is compatible with multi
 * The **libpcap/Npcap** is a specific driver that takes the frames from the network and offers them to the **Dumpcap capture engine**.   
 * When you open a saved pcapng file in Wireshark, you use the **Wiretap library** to offer the saved frames to the **Core engine**.   
 
+2. When to use Wireshark?
 
+Wireshark provides visibility into the traffic's source, destination, and timing, but it doesn't explain the reasons behind the traffic. Therefore, it's essential to review the application and operating system logs and debug information.   
 
-2. When to use Wireshark
+Wireshark, on the other hand, can guide you on where to focus your investigation. For many "black box" network devices with limited or nonexistent interfaces, Wireshark often becomes the primary troubleshooting tool.   
+
+Some of the most notable uses of Wireshark include:
+
+* Network traffic analysis (e.g., identifying top talkers)
+* Troubleshooting issues (e.g., diagnosing slow network performance)
+* Security investigations (e.g., detecting suspicious hosts)
+* Application analysis (e.g., bandwidth consumption)
 
 3. First exploration
 
