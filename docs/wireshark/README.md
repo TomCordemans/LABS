@@ -34,7 +34,7 @@ Wireshark is available under an open-source license and is compatible with multi
 
 Wireshark provides visibility into the traffic's source, destination, and timing, but it doesn't explain the reasons behind the traffic. Therefore, it's essential to review the application and operating system logs and debug information.   
 
-Wireshark, on the other hand, can guide you on where to focus your investigation. For many "black box" network devices with limited or nonexistent interfaces, Wireshark often becomes the primary troubleshooting tool.   
+Wireshark, on the other hand, can guide you on where to focus your investigation. For many "black box" network devices with limited or nonexistent user interface, Wireshark often becomes the primary troubleshooting tool.   
 
 Some of the most notable uses of Wireshark include:
 
