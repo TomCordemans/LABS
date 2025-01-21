@@ -46,7 +46,16 @@ Some of the most notable uses of Wireshark include:
 3. First exploration
 
 In this exercise, we will take a quick tour of the main window, along with the various toolbars and panes.
-The following file will be used: [intro.pcapng](./assets/intro.pcapng)
+The following file will be used: [intro.pcapng](./assets/intro.pcapng)   
+
+Questions:
+* How many packets does this pcapng file contain?
+* What IP addresses made a TCP connection in frames 18, 21, and 22?
+* What HTTP command was sent by the client in frame 23?
+* What response was sent by the HTTP server in frame 29?
+* What is the length of the largest frame in this pcapng file?
+* What protocols are visible in the protocol column?
+* What web browser was used by the client?
 
 
 ## Getting Wireshark ready
