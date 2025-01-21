@@ -46,7 +46,7 @@ Some of the most notable uses of Wireshark include:
 3. First exploration
 
 In this exercise, we will take a quick tour of the main window, along with the various toolbars and panes.
-The following file will be used: [intro.pcapng](intro.pcapng) 
+The following file will be used: [intro.pcapng](https://www.tomcordemans.net/intro.pcapng) 
 
 Questions:
 * How many packets does this pcapng file contain?
