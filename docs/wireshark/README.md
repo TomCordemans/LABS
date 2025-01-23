@@ -57,8 +57,16 @@ Questions:
 * What protocols are visible in the protocol column?
 * What web browser was used by the client?
 
-
 ## Getting Wireshark ready
+
+1. Using configuration profiles
+
+Configuration profiles enable you to customize settings based on your specific needs. For instance, you can set up separate profiles for troubleshooting and cybersecurity analysis.   
+By default, Wireshark uses the default profile. It’s recommended to create a new profile promptly to preserve the default profile as a reference point for all future profiles.
+
+![Success](./assets/default.png)
+
+A configuration profile is a folder containing text files that are loaded when the associated profile is activated. These files define preference settings, display filters, coloring rules, and more.
 
 ## How and where to capture
 
