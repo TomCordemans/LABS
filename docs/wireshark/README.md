@@ -75,3 +75,14 @@ Questions:
 ## Nice to know
 
 ## Other sources
+
+## Solutions
+
+**First exploration**
+* How many packets does this pcapng file contain? 3200
+* What IP addresses made a TCP connection in frames 18, 21, and 22? 192.168.1.129 and 195.238.0.64
+* What HTTP command was sent by the client in frame 23? GET
+* What response was sent by the HTTP server in frame 29? Status Code 302
+* What is the length of the largest frame in this pcapng file? 1514 bytes
+* What protocols are visible in the protocol column? DNS, HTTP, IGMPv2, TCP and TLSv1
+* What web browser was used by the client? Internet Explorer 11 (User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko)
