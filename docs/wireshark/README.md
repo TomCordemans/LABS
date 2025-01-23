@@ -8,7 +8,7 @@ This course introduces you to the fundamental skills needed to use Wireshark eff
 
 ## Introduction
     
-1. What is Wireshark
+1.1. What is Wireshark
 
 Wireshark is an application known as a "packet sniffer" and "protocol analyzer," designed to capture and analyze data on a network. It is a the successor of the once widely used Ethereal. The functionality of Wireshark is somewhat similar to the [tcpdump](https://www.tcpdump.org/) tool, but it provides a GUI and additional functionality for sorting, filtering and visualising data.   
 
@@ -30,7 +30,7 @@ Wireshark is available under an open-source license and is compatible with multi
 * The **libpcap/Npcap** is a specific driver that takes the frames from the network and offers them to the **Dumpcap capture engine**.   
 * When you open a saved pcapng file in Wireshark, you use the **Wiretap library** to offer the saved frames to the **Core engine**.   
 
-2. When to use Wireshark?
+1.2. When to use Wireshark?
 
 Wireshark provides visibility into the traffic's source, destination, and timing, but it doesn't explain the reasons behind the traffic. Therefore, it's essential to review the application and operating system logs and debug information.   
 
@@ -43,7 +43,7 @@ Some of the most notable uses of Wireshark include:
 * Security investigations (e.g., detecting suspicious hosts)
 * Application analysis (e.g., bandwidth consumption)
 
-3. First exploration
+1.3. First exploration
 
 In this exercise, we will take a quick tour of the main window, along with the various toolbars and panes.
 The following file will be used: [intro.pcapng](https://www.tomcordemans.net/intro.pcapng) 
@@ -59,7 +59,7 @@ Questions:
 
 ## Getting Wireshark ready
 
-1. Using configuration profiles
+2.1 Using configuration profiles
 
 Configuration profiles enable you to customize settings based on your specific needs. For instance, you can set up separate profiles for troubleshooting and cybersecurity analysis.   
 By default, Wireshark uses the default profile. It’s recommended to create a new profile promptly to preserve the default profile as a reference point for all future profiles.
@@ -86,7 +86,7 @@ A configuration profile is a folder containing text files that are loaded when t
 
 ## Solutions
 
-**First exploration**
+** 1.3. First exploration**
 * How many packets does this pcapng file contain? 3200
 * What IP addresses made a TCP connection in frames 18, 21, and 22? 192.168.1.129 and 195.238.0.64
 * What HTTP command was sent by the client in frame 23? GET
