@@ -8,7 +8,7 @@ This course introduces you to the fundamental skills needed to use Wireshark eff
 
 ## Introduction
     
-**1.1. What is Wireshark**
+**1.1. What is Wireshark?**
 
 Wireshark is an application known as a "packet sniffer" and "protocol analyzer," designed to capture and analyze data on a network. It is a the successor of the once widely used Ethereal. The functionality of Wireshark is somewhat similar to the [tcpdump](https://www.tcpdump.org/) tool, but it provides a GUI and additional functionality for sorting, filtering and visualising data.   
 
@@ -84,7 +84,7 @@ A configuration profile is a folder containing text files that are loaded when t
 
 ## Other sources
 
-## Solutions
+## Answers
 
 **1.3. First exploration**
 * How many packets does this pcapng file contain? 3200
