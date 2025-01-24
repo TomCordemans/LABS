@@ -67,6 +67,12 @@ By default, Wireshark uses the default profile. It’s recommended to create a n
 ![Success](./assets/default.png)
 
 A configuration profile is a folder containing text files that are loaded when the associated profile is activated. These files define preference settings, display filters, coloring rules, and more.
+Configuration profiles can be effortlessly shared using the import and export features. Profiles can be managed in various ways, such as through the menu by navigating to Edit > Configuration Profiles.
+Recent enhancements such as "Automatic Profile Switching" will be explored later in this course. 
+
+Tip: Create a new profile before continuing with this course.   
+
+![Success](./assets/profile.png)
 
 ## How and where to capture
 
