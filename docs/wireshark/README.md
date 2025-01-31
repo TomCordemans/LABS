@@ -77,7 +77,10 @@ Tip: Create a new profile before continuing with this course.
 **2.2 Adding/removing columns**
 
 In this exercise, we will add an extra column.   
-The following file will be used: [column.pcapng](https://www.tomcordemans.net/column.pcapng) 
+The following file will be used: [column.pcapng](https://www.tomcordemans.net/column.pcapng)
+
+While browsing, an HTTP client makes multiple requests for HTTP objects to one or more HTTP servers. Our goal is to obtain an overview of all HTTP servers.   
+
 
 ## How and where to capture
 
