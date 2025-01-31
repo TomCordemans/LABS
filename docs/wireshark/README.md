@@ -76,7 +76,7 @@ Tip: Create a new profile before continuing with this course.
 
 **2.2 Adding/removing columns**
 
-In this exercise, we will add an extra column.
+In this exercise, we will add an extra column.   
 The following file will be used: [column.pcapng](https://www.tomcordemans.net/column.pcapng) 
 
 ## How and where to capture
