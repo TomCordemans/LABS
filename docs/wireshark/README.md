@@ -79,7 +79,19 @@ Tip: Create a new profile before continuing with this course.
 In this exercise, we will add an extra column.   
 The following file will be used: [column.pcapng](https://www.tomcordemans.net/column.pcapng)
 
-While browsing, an HTTP client makes multiple requests for HTTP objects to one or more HTTP servers. Our goal is to obtain an overview of all HTTP servers.   
+While browsing, an HTTP client makes multiple requests for HTTP objects to one or more HTTP servers. Our goal is to obtain an overview of all HTTP servers.
+
+The following steps will be used:
+* Step 1: Apply the dispay filter **http** in the filter toolbar.
+* Step 2: Look for a **HTTP GET** in the packet list pane.
+* Step 3: Look for the **Host** field in the packet details pane.
+* Step 4: Right-click and select **Apply as Column**.
+
+The figure below shows an extra column that can be sorted.
+
+![Success](./assets/column.png)
+
+
 
 
 ## How and where to capture
