@@ -97,13 +97,17 @@ Analyzing network traffic is one of Wireshark's most essential and powerful capa
 Wireshark's core engine recognizes the structure of thousands of protocols and applications.   
 
 For example, a computer on an LAN transmits an HTTP GET request to a website.   
-First, the frame dissector processes the data and makes the information accessible.   
+First, the frame dissector processes the data and makes the information accessible.
 
 ![Success](./assets/diss_frame.png)
 
-Next, the frame dissector passes the task to the Ethernet dissector, which interprets and presents the fields of the Ethernet header.   
+Next, the frame dissector passes the task to the Ethernet dissector, which interprets and presents the fields of the Ethernet header.
 
 ![Success](./assets/diss_ethernet.png)
+
+The next dissector is determined by the contents of the Type field. In this case, the Type field is 0x0800, indicating IPv4, so the IPv4 dissector is called next.
+
+![Success](./assets/diss_ipv4.png)
 
 
 
