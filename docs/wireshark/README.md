@@ -101,7 +101,9 @@ First, the frame dissector processes the data and makes the information accessib
 
 ![Success](./assets/diss_frame.png)
 
+Next, the frame dissector passes the task to the Ethernet dissector, which interprets and presents the fields of the Ethernet header.   
 
+![Success](./assets/diss_ethernet.png)
 
 
 
