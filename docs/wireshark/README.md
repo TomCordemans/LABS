@@ -126,6 +126,14 @@ If you need to manually associate a port with a specific protocol, you can do so
 
 ![Success](./assets/pref_http.png)
 
+**Statistics → Protocol Hierarchy** lets you identify issues with assigning dissectors to specific network traffic. The "Data" section refers to network traffic for which no appropriate dissector was found.
+
+![Success](./assets/data.png)
+
+**2.5 Hands-on exercise**
+
+
+
 
 
 ## How and where to capture
