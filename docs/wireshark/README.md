@@ -91,6 +91,18 @@ The figure below shows an extra column that can be sorted.
 
 ![Success](./assets/column.png)
 
+**2.3 Wireshark dissectors**
+
+Analyzing network traffic is one of Wireshark's most essential and powerful capabilities. The "dissection process" transforms raw data streams (bits) into readable requests, responses, refusals, retransmissions, and more.
+Wireshark's core engine recognizes the structure of thousands of protocols and applications.   
+
+For example, a computer on an LAN transmits an HTTP GET request to a website.   
+First, the frame dissector processes the data and makes the information accessible.   
+
+![Success](./assets/diss_frame.png)
+
+
+
 
 
 
