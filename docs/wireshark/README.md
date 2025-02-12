@@ -109,6 +109,13 @@ The next dissector is determined by the contents of the Type field. In this case
 
 ![Success](./assets/diss_ipv4.png)
 
+The IPv4 dissector interprets the IPv4 fields and examines the Protocol field to identify the next dissector. In this case, the TCP dissector takes over, processing the data and displaying the relevant information. The Port field then determines the subsequent dissector.
+
+![Success](./assets/diss_tcp.png)
+
+The HTTP dissector interprets and processes the different HTTP fields.
+
+![Success](./assets/diss_http.png)
 
 
 
