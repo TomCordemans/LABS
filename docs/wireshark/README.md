@@ -117,6 +117,15 @@ The HTTP dissector interprets and processes the different HTTP fields.
 
 ![Success](./assets/diss_http.png)
 
+What happens if the dissectors fail to recognize the network traffic?
+
+**2.4 Network traffic through non-standardized ports**
+
+Network traffic that bypasses standard ports can be frustrating for a network administrator, as it often appears suspicious (e.g., an attempt to bypass firewall rules).   
+If you need to manually associate a port with a specific protocol, you can do so through **Edit → Preferences → Protocols**.
+
+![Success](./assets/pref_http.png)
+
 
 
 ## How and where to capture
