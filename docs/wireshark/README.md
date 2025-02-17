@@ -6,7 +6,7 @@ title: Wireshark course
 
 This course introduces you to the fundamental skills needed to use Wireshark effectively. It covers the most commonly used protocols and explores a variety of intriguing problems. To enhance your learning experience, the course incorporates practical exercises to share as much expertise as possible.   
 
-## Introduction
+## 1 Introduction
     
 **1.1. What is Wireshark?**
 
@@ -57,7 +57,7 @@ Questions:
 * What protocols are visible in the protocol column?
 * What web browser was used by the client?
 
-## Getting Wireshark ready
+## 2 Getting Wireshark ready
 
 **2.1 Using configuration profiles**
 
@@ -151,7 +151,13 @@ Identify the most likely cause of the issue.
 * E) The web server operates on a non-standard port  
 * F) Misconfigured proxy server on PC1
 
-## How and where to capture
+## 3 How and where to capture
+
+Thorough preparation, including **network documentation and troubleshooting procedures**, is crucial!   
+When a problem arises, there won’t be time to analyze the network from scratch—users expect swift and precise action.
+
+**3.1 Determine the Optimal Capture Location**  
+Aim to capture traffic as close as possible to the affected device. When a user reports an issue (e.g., slow downloads), it is best to analyze the problem from the user's perspective for the most accurate diagnosis.
 
 ## Using display filters
 
