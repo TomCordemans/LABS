@@ -132,8 +132,24 @@ If you need to manually associate a port with a specific protocol, you can do so
 
 **2.5 Hands-on exercise**
 
+To effectively troubleshoot with a network analyzer (such as Wireshark), a deep understanding of the OSI model and its associated protocols is essential. The following exercise will assess the students' knowledge and skills, allowing us to identify any necessary refresher training.
 
+The figure below shows the used topology.
 
+![Success](./assets/topology.png)
+
+**Problem Statement:**  
+A user reports being unable to access the internal website (**http://webserver.test.local**), while external websites remain accessible. We have access to network traffic from **PC1** through a port mirror and will analyze the provided capture file [website.pcapng](https://www.tomcordemans.net/website.pcapng).  
+
+**Question:**  
+Identify the most likely cause of the issue.  
+
+* A) IP conflict  
+* B) MAC spoofing  
+* C) Incorrect DNS configuration on Server1  
+* D) Server2 is completely unreachable
+* E) The web server operates on a non-standard port  
+* F) Misconfigured proxy server on PC1
 
 
 ## How and where to capture
