@@ -156,7 +156,7 @@ Identify the most likely cause of the issue.
 Thorough preparation, including **network documentation and troubleshooting procedures**, is crucial!   
 When a problem arises, there won’t be time to analyze the network from scratch—users expect swift and precise action.
 
-**3.1 Determine the Optimal Capture Location**  
+**3.1 Determine the optimal capture location**  
 
 Aim to capture traffic as close as possible to the affected device. When a user reports an issue (e.g., slow downloads), it is best to analyze the problem from the user's perspective for the most accurate diagnosis.
 
