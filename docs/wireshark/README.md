@@ -151,7 +151,6 @@ Identify the most likely cause of the issue.
 * E) The web server operates on a non-standard port  
 * F) Misconfigured proxy server on PC1
 
-
 ## How and where to capture
 
 ## Using display filters
@@ -178,3 +177,6 @@ Identify the most likely cause of the issue.
 * What is the length of the largest frame in this pcapng file? 1514 bytes
 * What protocols are visible in the protocol column? DNS, HTTP, IGMPv2, TCP and TLSv1
 * What web browser was used by the client? Internet Explorer 11 (User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko)
+
+**2.5 Hands-on exercise**
+* E) The web server operates on a non-standard port
