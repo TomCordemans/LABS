@@ -157,6 +157,7 @@ Thorough preparation, including **network documentation and troubleshooting proc
 When a problem arises, there won’t be time to analyze the network from scratch—users expect swift and precise action.
 
 **3.1 Determine the Optimal Capture Location**  
+
 Aim to capture traffic as close as possible to the affected device. When a user reports an issue (e.g., slow downloads), it is best to analyze the problem from the user's perspective for the most accurate diagnosis.
 
 ## Using display filters
