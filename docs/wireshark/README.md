@@ -154,11 +154,24 @@ Identify the most likely cause of the issue.
 ## 3 How and where to capture
 
 Thorough preparation, including **network documentation and troubleshooting procedures**, is crucial!   
-When a problem arises, there won’t be time to analyze the network from scratch—users expect swift and precise action.
+When a problem arises, there won’t be time to analyze the network from scratch. Users expect swift and precise action.
 
 **3.1 Determine the optimal capture location**  
 
 Aim to capture traffic as close as possible to the affected device. When a user reports an issue (e.g., slow downloads), it is best to analyze the problem from the user's perspective for the most accurate diagnosis.
+
+**3.2 Capturing options**
+
+There are three different ways to capture network traffic near the target device.
+
+**First option:**
+Install Wireshark directly on the host. Alternatively, you can use other tools like tcpdump.
+
+![Success](./assets/host.png)
+
+**Second option:**
+
+
 
 ## Using display filters
 
