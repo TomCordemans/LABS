@@ -195,6 +195,16 @@ You can view your available interfaces by navigating to **Capture → Options**.
 
 ![Success](./assets/options.png)
 
+**3.5 Capturing invisible**
+
+For accurate results, avoid making changes to the network configuration or keep them to a minimum. To make the computer running Wireshark invisible on the network, you can disable the TCP/IP stack.
+
+Disabling the TCP/IP stack will ensure that Wireshark continues to function while the OS and other applications do not generate additional network traffic.
+
+![Success](./assets/stack.png)
+
+**3.6 Managing high volumes of network traffic**
+
 ## Using display filters
 
 ## Tables and graphs
