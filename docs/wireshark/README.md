@@ -186,6 +186,9 @@ Inserting a hub between the target and the switch is not recommended, as it sign
 
 **3.3 Capturing wireless networks. (WLAN)**
 
+Capturing wireless network traffic is significantly more complex. Therefore, we will dedicate a separate chapter to capturing, analyzing, and decrypting wireless networks.
+
+**3.4 Active interfaces**
 
 
 
