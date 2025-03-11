@@ -165,11 +165,28 @@ Aim to capture traffic as close as possible to the affected device. When a user 
 There are three different ways to capture network traffic near the target device.
 
 **First option:**
+
 Install Wireshark directly on the host. Alternatively, you can use other tools like tcpdump.
 
 ![Success](./assets/host.png)
 
 **Second option:**
+
+Most managed switches support port mirroring, allowing them to replicate all network traffic (excluding data link-layer errors) from a designated port to another port on the switch. This approach provides significant flexibility, with options like SPAN (Switch Port Analyzer), RSPAN (Remote SPAN), and ERSPAN (Encapsulated RSPAN).
+
+![Success](./assets/mirror.png)
+
+**Third option:**
+
+A network tap is a full-duplex device placed between the target device and the switch, allowing it to forward all network traffic, including data link-layer errors. The main drawback of this option is its cost.
+
+![Success](./assets/tap.png)
+
+Inserting a hub between the target and the switch is not recommended, as it significantly alters the network and can lead to substantial performance degradation.
+
+**3.3 Capturing wireless networks. (WLAN)**
+
+
 
 
 
