@@ -190,8 +190,10 @@ Capturing wireless network traffic is significantly more complex. Therefore, we 
 
 **3.4 Active interfaces**
 
+If Wireshark does not detect the interface, it cannot be used within the application.   
+You can view your available interfaces by navigating to **Capture → Options**.
 
-
+![Success](./assets/options.png)
 
 ## Using display filters
 
