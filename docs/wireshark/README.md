@@ -203,9 +203,7 @@ Disabling the TCP/IP stack will ensure that Wireshark continues to function whil
 
 ![Success](./assets/stack.png)
 
-**3.6 Managing high volumes of network traffic**
-
-If you plan to use Wireshark in a high-traffic network environment, it may result in incomplete data due to its limited processing speed. To manage this, capture filters can be applied to reduce the number of packets. However, be aware that using capture filters may inadvertently exclude relevant network traffic. Capture filters will be discussed in the next section.
+**3.6 Managing large volumes of network traffic**
 
 Wireshark does not handle large capture files (pcap or pcapng) efficiently. To improve performance, you can use a **File Set** to split large files into smaller ones that Wireshark can process more quickly.
 
@@ -214,6 +212,10 @@ First, we launch Wireshark and navigate to **Capture → Options**.
 
 Our goal is to capture network traffic while splitting it into multiple files, each limited to 1MB or 10 seconds in duration, with the capture automatically stopping after five files.
 
+
+
+**3.7 Using capture filters**
+If you plan to use Wireshark in a high-speed network environment, it may result in incomplete data due to its limited processing speed. To manage this, capture filters can be applied to reduce the number of packets. However, be aware that using capture filters may inadvertently exclude relevant network traffic. 
 
 
 ## Using display filters
