@@ -207,12 +207,23 @@ Disabling the TCP/IP stack will ensure that Wireshark continues to function whil
 
 Wireshark does not handle large capture files (pcap or pcapng) efficiently. To improve performance, you can use a **File Set** to split large files into smaller ones that Wireshark can process more quickly.
 
+Recommended practice: Aim to keep your files under 100 MB whenever possible.
+
 To clarify a few concepts, we will go through an exercise.  
 First, we launch Wireshark and navigate to **Capture → Options**.  
 
 Our goal is to capture network traffic while splitting it into multiple files, each limited to 1MB or 10 seconds in duration, with the capture automatically stopping after five files.
 
+![Success](./assets/size.png)
 
+![Success](./assets/amount.png)
+
+Now, click Start and browse the internet for a minute.  
+The image below displays the final result.
+
+![Success](./assets/files.png)
+
+Imagine you need to capture network traffic continuously while storing up to five files, each covering a time span of one minute. Which option would you select? In what situations would this option be beneficial?
 
 **3.7 Using capture filters**
 If you plan to use Wireshark in a high-speed network environment, it may result in incomplete data due to its limited processing speed. To manage this, capture filters can be applied to reduce the number of packets. However, be aware that using capture filters may inadvertently exclude relevant network traffic. 
