@@ -233,7 +233,53 @@ Under normal conditions, it's best to avoid using capture filters. Only use them
 
 ![Success](./assets/dropped.png)
 
+Capture filters utilize BPF (Berkeley Packet Filter) syntax. Here are some examples of BPF syntax:
 
+| Syntax | Description |
+| ------ | ----------- |
+| host 10.4.1.1 | Capture traffic to/from not host 10.4.1.1 |
+not host 10.4.1.1 Capture all traffic except traffic to/from 10.4.1.1
+src host 10.4.1.1 Capture traffic from 10.4.1.1
+dst host 10.4.1.1 Capture traffic to 10.4.1.1
+host www.hln.be Capture traffic to/from any IP address that resolves to
+www.hln.be
+net 10.8.0.0/16 Capture traffic to/from any host on network 10.8.0.0
+not dst net 10.8.0.0/16 Capture all traffic except traffic to an IP address starting with
+10.8
+dst net 10.8.0.0/16 Capture traffic to any IP address starting with 10.8
+src net 10.8.0.0/16 Capture traffic from any IP address starting with 10.8
+ip broadcast Capture traffic to 255.255.255.255
+ip multicast Capture traffic to 224.0.0.0 through 239.255.255.255
+(also catches traffic to 255.255.255.255)
+ether host 00:08:15:00:08:15 Capture traffic to or from 00:08:15:00:08:15
+ether src 02:0A:42:23:41:AC Capture traffic from 02:0A:42:23:41:AC
+ether dst 02:0A:42:23:41:AC Capture traffic to 02:0A:42:23:41:AC
+not ether host 00:08:15:00:08:15 Capture traffic to or from any MAC address except for traffic to
+or from 00:08:15:00:08:15
+port 53 Capture UDP/TCP traffic to or from port 53 (typically DNS traffic)
+not port 53 Capture all UDP/TCP traffic except traffic to or from port 53
+port 80 Capture UDP/TCP traffic to or from port 80 (typically HTTP
+traffic)
+udp port 67 Capture UDP traffic to or from port 67 (typically DHCP traffic)
+tcp port 21 Capture TCP traffic to or from port 21 (typically the FTP
+command channel)
+portrange 1‐80 Capture UDP/TCP traffic to or from ports from 1 through 80
+tcp portrange 1‐80 Capture TCP traffic to or from ports from 1 through 80
+port 20 or port 21 Capture all UDP/TCP traffic to or from port 20 or port
+21(typically FTP data and command ports)
+host 10.3.1.1 and port 80 Capture UDP/TCP traffic to or from port 80 that is being sent to
+or from 10.3.1.1
+host 10.3.1.1 and not port 80 Capture UDP/TCP traffic to or from 10.3.1.1 except traffic to or
+from port 80
+udp src port 68 and udp dst port 67 Capture all UDP traffic from port 68 to port 67 (typically traffic
+sent from a DHCP client to a DHCP server)
+udp src port 67 and udp dst port 68 Capture all UDP traffic from port 67 to port 68 (typically traffic
+sent from a DHCP server to a DHCP client)
+icmp Capture all ICMP packets
+icmp[0]=8 Capture all ICMP Type 8 (Echo Request) packets.
+icmp[0]=17 Capture all ICMP Type 17 (Address Mask Request) packets.
+icmp[0]=8 or icmp[0]=0 Capture all ICMP Type 8 (Echo Request) packets or ICMPType 0
+(Echo Reply) packets.
 
 ## Using display filters
 
