@@ -226,7 +226,13 @@ The image below displays the final result.
 Imagine you need to capture network traffic continuously while storing up to five files, each covering a time span of one minute. Which option would you select? In what situations would this option be beneficial?
 
 **3.7 Using capture filters**
-If you plan to use Wireshark in a high-speed network environment, it may result in incomplete data due to its limited processing speed. To manage this, capture filters can be applied to reduce the number of packets. However, be aware that using capture filters may inadvertently exclude relevant network traffic. 
+
+If you plan to use Wireshark in a high-speed network environment, it may result in packet loss due to its limited processing speed. To manage this, capture filters can be applied to reduce the number of packets. However, be aware that using capture filters may inadvertently exclude relevant network traffic.
+
+Under normal conditions, it's best to avoid using capture filters. Only use them if Wireshark struggles to process network traffic. You can check the status bar for dropped packets to identify any issues.
+
+![Success](./assets/dropped.png)
+
 
 
 ## Using display filters
