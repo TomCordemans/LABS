@@ -267,7 +267,14 @@ Capture filters utilize BPF (Berkeley Packet Filter) syntax. Here are some examp
 | icmp | Capture all ICMP packets |
 | icmp[0]=8 | Capture all ICMP Type 8 (Echo Request) packets |
 | icmp[0]=17 | Capture all ICMP Type 17 (Address Mask Request) packets |
-| icmp[0]=8 or icmp[0]=0 | Capture all ICMP Type 8 (Echo Request) packets or ICMPType 0 (Echo Reply) packets |
+| icmp[0]=8 or icmp[0]=0 | Capture all ICMP Type 8 (Echo Request) packets or ICMP Type 0 (Echo Reply) packets |
+
+We'll solidify our understanding through an exercise.
+In this exercise, we'll create and apply a DNS capture filter.
+
+![Success](./assets/port53.png)
+
+![Success](./assets/dns.png)
 
 ## Using display filters
 
