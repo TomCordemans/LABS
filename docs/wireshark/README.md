@@ -321,9 +321,11 @@ Characteristic filters:
 | Tcp.analysis.zero_window | Displays packets that are flagged to indicate the sender has run out of receive buffer space |
 
 It's important to note that display filters are case-sensitive and color coding is applied.
-Red: Syntax check failed
-Green: Syntax check passed
-Yellow: Syntax check passed with a warning
+
+| Color | Message |
+| Red | Syntax check failed |
+| Green | Syntax check passed |
+| Yellow | Syntax check passed with a warning |
 
 ![Success](./assets/color.png)
 
@@ -358,6 +360,10 @@ By using the drop-down menu, we can view all available HTTP filter options. Letâ
 ![Success](./assets/display1_4.png)
 
 Since we're still dealing with 27 packets, this method isn't the most efficient for our search. Adding an extra column can provide additional clarity and make the process easier.
+
+![Success](./assets/display1_5.png)
+
+![Success](./assets/display1_6.png)
 
 ## Tables and graphs
 
