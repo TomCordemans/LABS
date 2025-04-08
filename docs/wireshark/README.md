@@ -365,6 +365,10 @@ Since we're still dealing with 27 packets, this method isn't the most efficient 
 
 ![Success](./assets/display1_6.png)
 
+Let’s now search for all hosts that include “emind” in their name.
+
+![Success](./assets/display1_7.png)
+
 ## Tables and graphs
 
 ## Extract data out of network traffic
