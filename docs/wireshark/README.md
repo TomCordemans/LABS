@@ -318,7 +318,7 @@ Characteristic filters:
 | Syntax | Description |
 | ------ | ----------- |
 | tcp.analysis.flags | Displays all packets that have any of the TCP analysis flags associated with them. This includes indications of packet loss, retransmissions, or zerowindow conditions |
-| Tcp.analysis.zero_window | Displays packets that are flagged to indicate the sender has run out of receive buffer space |
+| tcp.analysis.zero_window | Displays packets that are flagged to indicate the sender has run out of receive buffer space |
 
 It's important to note that display filters are case-sensitive and color coding is applied.
 
@@ -378,8 +378,27 @@ The packet details pane shows that packet 611 includes all the form data submitt
 
 ![Success](./assets/display1_9.png)
 
-Here’s another task: examine the difference between the display filter http and tcp.port == 80. What is your conclusion?
+Here’s another task: examine the difference between the display filter http and tcp.port == 80.   
+What is your conclusion?
 
+Dispay filters can also be created based on IP addresses and subnets.   
+Here are a few examples:
+
+| Syntax | Description |
+| ------ | ----------- |
+| ip.addr==10.3.1.1 | Display frames that have 10.3.1.1 in the IP source address field or the IP destination address field |
+| !ip.addr==10.3.1.1 | Display all frames except frames that have 10.3.1.1 in the IP source address field or 10.3.1.1 in the IP destination address field |
+| ip.src==10.3.1.1 | Display traffic from 10.3.1.1 |
+| ip.dst==10.3.1.1 | Display traffic to 10.3.1.1 |
+| ip.host==www.wireshark.org | Display traffic to or from the IP address that resolves to www.wireshark.org |
+| ip.addr > 10.3.0.1 && ip.addr < 10.3.0.5 | Display traffic to or from 10.3.0.2, 10.3.0.3 or 10.3.0.4 |
+| (ip.addr >= 10.3.0.1 && ip.addr <= 10.3.0.6) &&!ip.addr==10.3.0.3 | Display traffic to or from 10.3.0.1, 10.3.0.2, 10.3.0.4, 10.3.0.5 or 10.3.0.6 . But the IP address10.3.0.3 is excluded from the range specified |
+| ip.addr==10.3.0.0/16 | Display traffic that contains an IP address starting with 10.3 in the source IP address field or destination IP address field |
+| ip.addr==10.3.0.0/16 && !ip.addr==10.3.1.1 | Display traffic that contains an IP address starting with 10.3 in the source IP address field or destination IP address field except 10.3.1.1 |
+| !ip.addr==10.3.0.0/16 && !ip.addr==10.2.0.0/16 | Display all traffic except traffic that contains an IP address starting with 10.3 or 10.2 in the source IP address field or destination IP address field |
+
+In the next exercise, you'll observe network traffic from and to a video streaming website. We aim to map the network traffic.   
+The following file will be used: [display2.pcapng](https://www.tomcordemans.net/display2.pcapng)
 
 
 
