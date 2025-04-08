@@ -322,11 +322,13 @@ Characteristic filters:
 
 It's important to note that display filters are case-sensitive and color coding is applied.
 
+
 | Color | Message |
 | ------ | ----------- |
 | Red | Syntax check failed |
 | Green | Syntax check passed |
 | Yellow | Syntax check passed with a warning |
+
 
 ![Success](./assets/color.png)
 
@@ -378,10 +380,10 @@ The packet details pane shows that packet 611 includes all the form data submitt
 
 ![Success](./assets/display1_9.png)
 
-Here’s another task: examine the difference between the display filter http and tcp.port == 80.   
+Here’s another task: examine the difference between the display filter `http` and `tcp.port == 80`.   
 What is your conclusion?
 
-Dispay filters can also be created based on IP addresses and subnets.   
+Display filters can also be created based on IP addresses and subnets.   
 Here are a few examples:
 
 | Syntax | Description |
