@@ -327,6 +327,27 @@ Yellow: Syntax check passed with a warning
 
 ![Success](./assets/color.png)
 
+Comparison operators can also be used.
+Here are a few examples:
+
+| Syntax | Description |
+| ------ | ----------- |
+| ip.src == 10.2.2.2 | Display all IPv4 traffic from 10.2.2.2 |
+| tcp.srcport != 80 | Display all TCP traffic from any port except port 80 |
+| frame.time_relative > 1 | Display packets that arrived more than 1 second after the previous packet in the trace file |
+| tcp.window_size < 1460 | Display when the TCP receive window size is less than 1460 bytes |
+| dns.count.answers >= 10 | Display DNS response packets that contain at least 10 answers |
+| ip.ttl < 10 | Display any packets that have less than 10 in the IP Time to Live field |
+| http contains "GET" | Display all the HTTP client GET requests sent to HTTP servers |
+
+In the next exercise, you'll observe network traffic from a user visiting a website and submitting a web form.
+The following file will be used: [display1.pcapng](https://www.tomcordemans.net/display1.pcapng)
+
+![Success](./assets/display1_1.png)
+
+Without applying a display filter, we can see a total of 703 packets.
+
+
 
 
 
