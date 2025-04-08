@@ -323,6 +323,7 @@ Characteristic filters:
 It's important to note that display filters are case-sensitive and color coding is applied.
 
 | Color | Message |
+| ------ | ----------- |
 | Red | Syntax check failed |
 | Green | Syntax check passed |
 | Yellow | Syntax check passed with a warning |
