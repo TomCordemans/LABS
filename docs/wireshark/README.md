@@ -296,7 +296,7 @@ Protocol filters:
 | tcp | Displays all TCP‐based communications |
 | icmp | Displays all ICMP traffic |
 
-Applicatiopn filters:
+Application filters:
 
 | Syntax | Description |
 | ------ | ----------- |
@@ -306,13 +306,26 @@ Applicatiopn filters:
 | http | Displays all HTTP commands, responses and data transfer packets, but does not display the TCP handshake packets, TCP ACK packets or TCP connection teardown packets |
 
 Field existence filters:
+
 | Syntax | Description |
 | ------ | ----------- |
 | dhcp.option.hostname | Displays all DHCP traffic that contains a host name |
 | http.host | Displays all HTTP packets that have the HTTP host name field. This packet is sent by the clients when they send a request to a web server |
 | ftp.request.command | Displays all FTP traffic that contains a command, such as the USER, PASS, or RETR commands |
 
+Characteristic filters:
 
+| Syntax | Description |
+| ------ | ----------- |
+| tcp.analysis.flags | Displays all packets that have any of the TCP analysis flags associated with them. This includes indications of packet loss, retransmissions, or zerowindow conditions |
+| Tcp.analysis.zero_window | Displays packets that are flagged to indicate the sender has run out of receive buffer space |
+
+It's important to note that display filters are case-sensitive and color coding is applied.
+Red: Syntax check failed
+Green: Syntax check passed
+Yellow: Syntax check passed with a warning
+
+![Success](./assets/color.png)
 
 
 
