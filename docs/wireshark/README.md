@@ -351,7 +351,7 @@ Without applying a display filter, we can see a total of 703 packets.
 
 ![Success](./assets/display1_2.png)
 
-Applying the **http** display filter results in a reduction of over 90% in the number of visible packets.
+Applying the `http` display filter results in a reduction of over 90% in the number of visible packets.
 
 By using the drop-down menu, we can view all available HTTP filter options. Let’s explore the different HTTP hosts that were accessed.
 
@@ -368,6 +368,19 @@ Since we're still dealing with 27 packets, this method isn't the most efficient 
 Let’s now search for all hosts that include “emind” in their name.
 
 ![Success](./assets/display1_7.png)
+
+Next, we’ll focus on finding information related to submitting the web form. To do this, we’ll apply the display filter `http.request.method == "POST"`.
+
+![Success](./assets/display1_8.png)
+
+The packet details pane shows that packet 611 includes all the form data submitted by the user.
+
+![Success](./assets/display1_9.png)
+
+Here’s another task: examine the difference between the display filter http and tcp.port == 80. What is your conclusion?
+
+
+
 
 ## Tables and graphs
 
