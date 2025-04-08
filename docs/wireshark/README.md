@@ -276,7 +276,46 @@ In this exercise, we'll create and apply a DNS capture filter.
 
 ![Success](./assets/dns.png)
 
-## Using display filters
+## 4 Using display filters
+
+Display filters are a crucial part of working with Wireshark, making it much easier to pinpoint specific data quickly. Like finding a needle in a haystack.
+It's important to note that display filters are entirely different from capture filters in both purpose and syntax.
+
+**4.1 Display filter syntax**
+
+The simplest display filters are typically based on specific protocols or applications.  
+Here are a few examples:
+
+Protocol filters:
+
+| Syntax | Description |
+| ------ | ----------- |
+| arp | Displays all ARP traffic including gratuitous ARPs, ARP requests, and ARP replies |
+| ip | Displays all IPv4 traffic including packets that have IPv4 headers embedded in them (such as ICMP destination unreachable packets that return the incoming IPv4 header after the ICMPheader) |
+| ipv6 | Displays all IPv6 traffic including IPv4 packets that have IPv6 headers embedded in them, such as 6to4, Teredo, and ISATAP traffic |
+| tcp | Displays all TCP‐based communications |
+| icmp | Displays all ICMP traffic |
+
+Applicatiopn filters:
+
+| Syntax | Description |
+| ------ | ----------- |
+| dhcp | Displays all DHCP traffic |
+| dns | Displays all DNS traffic including TCP‐based zone transfers and the standard UDP‐based DNS requests and responses |
+| tftp | Displays all TFTP (Trivial File Transfer Protocol) traffic |
+| http | Displays all HTTP commands, responses and data transfer packets, but does not display the TCP handshake packets, TCP ACK packets or TCP connection teardown packets |
+
+Field existence filters:
+| Syntax | Description |
+| ------ | ----------- |
+| dhcp.option.hostname | Displays all DHCP traffic that contains a host name |
+| http.host | Displays all HTTP packets that have the HTTP host name field. This packet is sent by the clients when they send a request to a web server |
+| ftp.request.command | Displays all FTP traffic that contains a command, such as the USER, PASS, or RETR commands |
+
+
+
+
+
 
 ## Tables and graphs
 
