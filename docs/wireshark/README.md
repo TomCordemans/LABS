@@ -347,9 +347,17 @@ The following file will be used: [display1.pcapng](https://www.tomcordemans.net/
 
 Without applying a display filter, we can see a total of 703 packets.
 
+![Success](./assets/display1_2.png)
 
+Applying the **http** display filter results in a reduction of over 90% in the number of visible packets.
 
+By using the drop-down menu, we can view all available HTTP filter options. Let’s explore the different HTTP hosts that were accessed.
 
+![Success](./assets/display1_3.png)
+
+![Success](./assets/display1_4.png)
+
+Since we're still dealing with 27 packets, this method isn't the most efficient for our search. Adding an extra column can provide additional clarity and make the process easier.
 
 ## Tables and graphs
 
