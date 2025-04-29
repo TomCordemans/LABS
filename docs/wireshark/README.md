@@ -410,6 +410,19 @@ Frame 94 displays a DNS query for www.youtube.com. Let's create a new display fi
 
 ![Success](./assets/display2_2.png)
 
+The DNS response packets (frames 95 and 3433) reveal the IP addresses associated with YouTube. The lowest address is 74.125.230.64, and the highest is 74.125.230.110. Based on this range, we can determine that all addresses fall within the subnet 74.125.230.64/26.   
+Let's create a new display filter that specifically targets the subnet 74.125.230.64/26.
+
+![Success](./assets/display2_3.png)
+
+Based on the results, we can conclude that 23.9% of the frames are related to YouTube. However, this doesn't provide any insight into the actual bandwidth usage, as frame sizes can vary significantly.   
+However, a clearer understanding of the consumed bandwidth can be achieved through graphical visualization. The detailed construction of this graph will be addressed later in the course.
+
+![Success](./assets/display2_4.png)
+
+In the next exercise, we’ll explore various options to more efficiently filter specific types of network traffic. In particular, we'll focus on identifying DNS and HTTP error responses.   
+The following file will be used: [display3.pcapng](https://www.tomcordemans.net/display3.pcapng)
+
 
 
 ## Tables and graphs
