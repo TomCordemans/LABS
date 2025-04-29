@@ -402,6 +402,14 @@ Here are a few examples:
 In the next exercise, you'll observe network traffic from and to a video streaming website. We aim to map the network traffic.   
 The following file will be used: [display2.pcapng](https://www.tomcordemans.net/display2.pcapng)
 
+First, we apply the dns display filter.
+
+![Success](./assets/display2_1.png)
+
+Frame 94 displays a DNS query for www.youtube.com. Let's create a new display filter that specifically targets DNS queries containing the word "youtube."  
+
+![Success](./assets/display2_2.png)
+
 
 
 ## Tables and graphs
