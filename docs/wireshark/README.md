@@ -421,7 +421,30 @@ However, a clearer understanding of the consumed bandwidth can be achieved throu
 ![Success](./assets/display2_4.png)
 
 In the next exercise, we’ll explore various options to more efficiently filter specific types of network traffic. In particular, we'll focus on identifying DNS and HTTP error responses.   
-The following file will be used: [display3.pcapng](https://www.tomcordemans.net/display3.pcapng)
+The following file will be used: [display3.pcapng](https://www.tomcordemans.net/display3.pcapng)   
+
+In frame 797 you can find in the DNS section “Reply code: No such name (3)”.   
+Perform the following actions.   
+
+![Success](./assets/dns_error1.png)   
+
+This results in the following outcome.   
+
+![Success](./assets/dns_error2.png)   
+
+In frame 3691 you will find the status code 404 in the HTTP section. Use this as a display filter.   
+
+![Success](./assets/http_error1.png)   
+
+This leads to the following result.   
+
+![Success](./assets/http_error2.png)   
+
+Filtering a specific TCP or UDP conversation can also be useful. An exercise will be used to demonstrate the four different methods.   
+The following file will be used: [display4.pcapng](https://www.tomcordemans.net/display4.pcapng) 
+
+
+
 
 
 
