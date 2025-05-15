@@ -441,7 +441,28 @@ This leads to the following result.
 ![Success](./assets/http_error2.png)   
 
 Filtering a specific TCP or UDP conversation can also be useful. An exercise will be used to demonstrate the four different methods.   
-The following file will be used: [display4.pcapng](https://www.tomcordemans.net/display4.pcapng) 
+The following file will be used: [display4.pcapng](https://www.tomcordemans.net/display4.pcapng)   
+
+Sure, here's a rephrased version:
+
+A capture typically includes multiple conversations between various devices, which can make it challenging to locate specific information. Focusing on a particular conversation can help simplify this task.   
+In this exercise, we aim to identify the conversation that contains frame 9.   
+
+- First method: Make use of a conversation filter
+
+The approach is shown below.   
+
+![Success](./assets/display4_1.png) 
+
+The result is presented underneath.   
+
+![Success](./assets/display4_2.png) 
+
+- Second methode: Make use of follow a stream
+
+- Third method: Make use of Wireshark statistics
+
+- Forth medthod: Make use of the stream index field
 
 
 
