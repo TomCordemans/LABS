@@ -458,7 +458,7 @@ The result is presented underneath.
 
 ![Success](./assets/display4_2.png) 
 
-- Second methode: Make use of follow a stream
+- Second method: Make use of follow a stream
 
 - Third method: Make use of Wireshark statistics
 
