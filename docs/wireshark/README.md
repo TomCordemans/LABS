@@ -460,6 +460,14 @@ The result is presented underneath.
 
 - Second method: Make use of follow a stream
 
+The approach is shown below.   
+
+![Success](./assets/display4_3.png) 
+
+The result is presented underneath.   
+
+![Success](./assets/display4_4.png) 
+
 - Third method: Make use of Wireshark statistics
 
 - Forth medthod: Make use of the stream index field
