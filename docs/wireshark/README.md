@@ -491,10 +491,9 @@ The result is presented underneath.
 
 ![Success](./assets/display4_8.png) 
 
-**4.1 Display filter practice**
+**4.2 Display filter practice**
 
 - Part 1   
-
 Incoming TCP connections to a server are normal. However, on a regular user's computer (192.168.1.129), such connections are rather unusual.   
 The following file will be used: [client.pcapng](https://www.tomcordemans.net/client.pcapng)  
 
@@ -502,9 +501,13 @@ Question:
 * How can we detect these types of connections?   
 
 - Part 2
+There are complaints about the performance of the computer network. Look for delays between packets within the same conversation.   
+The following file will be used: [delay.pcapng](https://www.tomcordemans.net/delay.pcapng)  
 
+Question: 
+* In what ways can delays within a conversation be detected?   
 
-
+**4.3 Coloring network packets**
 
 ## Tables and graphs
 
@@ -532,6 +535,9 @@ Question:
 **2.5 Hands-on exercise**
 * E) The web server operates on a non-standard port
 
-**4.1 Display filter practice**
-- Part 1   
-* How can we detect these types of connections? tcp.flags == 0x0002 && ip.dst == 192.168.1.129
+**4.2 Display filter practice**
+Part 1   
+* How can we detect these types of connections? tcp.flags == 0x0002 && ip.dst == 192.168.1.129   
+
+Part 2
+* In what ways can delays within a conversation be detected? Add an extra column tcp.time_delta and use the display filter tcp.time_delta > 1
