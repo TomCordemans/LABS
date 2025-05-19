@@ -468,7 +468,16 @@ The result is presented underneath.
 
 ![Success](./assets/display4_4.png) 
 
-- Third method: Make use of Wireshark statistics
+- Third method: Make use of Wireshark statistics   
+
+The socket pair to which frame 9 belongs is 185.43.124.11:80 and 192.168.1.129:49413. Based on this information, we use the following approach.   
+Go to **Statistics > Conversations**, then select the **TCP** tab and locate the specific socket pair.
+
+![Success](./assets/display4_5.png) 
+
+The result is presented underneath.   
+
+![Success](./assets/display4_6.png) 
 
 - Forth medthod: Make use of the stream index field
 
