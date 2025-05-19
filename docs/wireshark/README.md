@@ -479,10 +479,19 @@ The result is presented underneath.
 
 ![Success](./assets/display4_6.png) 
 
-- Forth medthod: Make use of the stream index field
+- Forth method: Make use of the stream index field
 
+The approach is shown below.   
 
+![Success](./assets/display4_7.png) 
 
+Note: You can also drag any field to the filter toolbar.
+
+The result is presented underneath.   
+
+![Success](./assets/display4_8.png) 
+
+**4.1 Display filter practice**
 
 
 
