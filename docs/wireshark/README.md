@@ -549,21 +549,21 @@ Keep these tips in mind: choose eye-catching, unused color combinations, and alw
 ## 11 Answers
 
 **1.3. First exploration**
-* How many packets does this pcapng file contain? 3200
-* What IP addresses made a TCP connection in frames 18, 21, and 22? 192.168.1.129 and 195.238.0.64
-* What HTTP command was sent by the client in frame 23? GET
-* What response was sent by the HTTP server in frame 29? Status Code 302
-* What is the length of the largest frame in this pcapng file? 1514 bytes
-* What protocols are visible in the protocol column? DNS, HTTP, IGMPv2, TCP and TLSv1
-* What web browser was used by the client? Internet Explorer 11 (User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko)
+* How many packets does this pcapng file contain? `3200`
+* What IP addresses made a TCP connection in frames 18, 21, and 22? `192.168.1.129 and 195.238.0.64`
+* What HTTP command was sent by the client in frame 23? `GET`
+* What response was sent by the HTTP server in frame 29? `Status Code 302`
+* What is the length of the largest frame in this pcapng file? `1514 bytes`
+* What protocols are visible in the protocol column? `DNS, HTTP, IGMPv2, TCP and TLSv1`
+* What web browser was used by the client? `Internet Explorer 11 (User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko)`
 
 **2.5 Hands-on exercise**
-* E) The web server operates on a non-standard port
+* Identify the most likely cause of the issue. `E) The web server operates on a non-standard port`
 
 **4.2 Display filter practice**   
 * Part 1   
 How can we detect these types of connections?   
-Use the display filter **tcp.flags == 0x0002 && ip.dst == 192.168.1.129**   
+Use the display filter `tcp.flags == 0x0002 && ip.dst == 192.168.1.129`
 * Part 2   
 In what ways can delays within a conversation be detected?   
-Add an extra column tcp.time_delta and use the display filter **tcp.time_delta > 1**
+Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta > 1`
