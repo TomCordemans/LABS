@@ -521,7 +521,18 @@ If you want to disable a specific 'coloring rule', you can do so via View ‐ Co
 ![Success](./assets/coloring_rule2.png) 
 
 In the following exercise, you will create a 'coloring rule' to highlight packets that contain FTP arguments.
-The following file will be used: [color.pcapng](https://www.tomcordemans.net/color.pcapng)
+The following file will be used: [color.pcapng](https://www.tomcordemans.net/color.pcapng)   
+
+In frame 8, the info field shows 'Request: USER tom'. Within the FTP section of this frame, select 'Request arg', and then choose 'Colorize with Filter'."
+
+![Success](./assets/color_ftp.png)
+
+Once the necessary adjustments have been made, you'll see the following result.   
+Keep these tips in mind: choose eye-catching, unused color combinations, and always use uppercase letters for your custom 'coloring rules'.
+
+![Success](./assets/color_ftp1.png)
+
+![Success](./assets/color_ftp2.png)
 
 
 ## Tables and graphs
