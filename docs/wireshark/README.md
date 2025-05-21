@@ -471,7 +471,7 @@ The result is presented underneath.
 - Third method: Make use of Wireshark statistics   
 
 The socket pair to which frame 9 belongs is 185.43.124.11:80 and 192.168.1.129:49413. Based on this information, we use the following approach.   
-Go to **Statistics > Conversations**, then select the **TCP** tab and locate the specific socket pair.
+Go to `Statistics > Conversations` , then select the `TCP` tab and locate the specific socket pair.
 
 ![Success](./assets/display4_5.png) 
 
@@ -507,47 +507,46 @@ Question: In what ways can delays within a conversation be detected?
 
 Hier is de vertaling in het Engels:
 
-Wireshark automatically colors packets based on 'coloring rules.'
-In the frame section, you can find the 'Coloring Rule Name' and 'Coloring Rule String'.
+Wireshark automatically colors packets based on coloring rules.
+In the frame section, you can find the `Coloring Rule Name` and `Coloring Rule String`.
 
 ![Success](./assets/coloring_rule.png) 
 
-Sometimes these 'coloring rules' are also perceived as annoying. You can disable all 'coloring rules' at once.
+Sometimes these coloring rules are also perceived as annoying. You can disable all coloring rules at once.
 
 ![Success](./assets/coloring_rule1.png) 
 
-If you want to disable a specific 'coloring rule', you can do so via View ‐ Coloring Rules.
+If you want to disable a specific coloring rule, you can do so via `View ‐ Coloring Rules`.
 
 ![Success](./assets/coloring_rule2.png) 
 
-In the following exercise, you will create a 'coloring rule' to highlight packets that contain FTP arguments.
+In the following exercise, you will create a coloring rule to highlight packets that contain FTP arguments.
 The following file will be used: [color.pcapng](https://www.tomcordemans.net/color.pcapng)   
 
-In frame 8, the info field shows 'Request: USER tom'. Within the FTP section of this frame, select 'Request arg', and then choose 'Colorize with Filter'."
+In frame 8, the info field shows `Request: USER tom`. Within the FTP section of this frame, select `Request arg`, and then choose `Colorize with Filter`.
 
 ![Success](./assets/color_ftp.png)
 
 Once the necessary adjustments have been made, you'll see the following result.   
-Keep these tips in mind: choose eye-catching, unused color combinations, and always use uppercase letters for your custom 'coloring rules'.
+Keep these tips in mind: choose eye-catching, unused color combinations, and always use uppercase letters for your custom coloring rules.
 
 ![Success](./assets/color_ftp1.png)
 
 ![Success](./assets/color_ftp2.png)
 
+## 5 Tables and graphs
 
-## Tables and graphs
+## 6 Extract data out of network traffic
 
-## Extract data out of network traffic
+## 7 Straight from practice
 
-## Straight from practice
+## 8 Wireless LAN
 
-## Wireless LAN
+## 9 Nice to know
 
-## Nice to know
+## 10 Other sources
 
-## Other sources
-
-## Answers
+## 11 Answers
 
 **1.3. First exploration**
 * How many packets does this pcapng file contain? 3200
