@@ -505,6 +505,25 @@ Question: In what ways can delays within a conversation be detected?
 
 **4.3 Coloring network packets**
 
+Hier is de vertaling in het Engels:
+
+Wireshark automatically colors packets based on 'coloring rules.'
+In the frame section, you can find the 'Coloring Rule Name' and 'Coloring Rule String'.
+
+![Success](./assets/coloring_rule.png) 
+
+Sometimes these 'coloring rules' are also perceived as annoying. You can disable all 'coloring rules' at once.
+
+![Success](./assets/coloring_rule1.png) 
+
+If you want to disable a specific 'coloring rule', you can do so via View ‐ Coloring Rules.
+
+![Success](./assets/coloring_rule2.png) 
+
+In the following exercise, you will create a 'coloring rule' to highlight packets that contain FTP arguments.
+The following file will be used: [color.pcapng](https://www.tomcordemans.net/color.pcapng)
+
+
 ## Tables and graphs
 
 ## Extract data out of network traffic
