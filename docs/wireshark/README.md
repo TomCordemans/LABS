@@ -82,10 +82,10 @@ The following file will be used: [column.pcapng](https://www.tomcordemans.net/co
 While browsing, an HTTP client makes multiple requests for HTTP objects to one or more HTTP servers. Our goal is to obtain an overview of all HTTP servers.
 
 The following steps will be used:
-* Step 1: Apply the display filter **http** in the filter toolbar.
-* Step 2: Look for a **HTTP GET** in the packet list pane.
-* Step 3: Look for the **Host** field in the packet details pane.
-* Step 4: Right-click and select **Apply as Column**.
+* Step 1: Apply the display filter `http` in the filter toolbar.
+* Step 2: Look for a `HTTP GET` in the packet list pane.
+* Step 3: Look for the `Host` field in the packet details pane.
+* Step 4: Right-click and select `Apply as Column`.
 
 The figure below shows an extra column that can be sorted.
 
@@ -122,7 +122,7 @@ What happens if the dissectors fail to recognize the network traffic?
 **2.4 Network traffic through non-standardized ports**
 
 Network traffic that bypasses standard ports can be frustrating for a network administrator, as it often appears suspicious (e.g., an attempt to bypass firewall rules).   
-If you need to manually associate a port with a specific protocol, you can do so through **Edit → Preferences → Protocols**.
+If you need to manually associate a port with a specific protocol, you can do so through `Edit → Preferences → Protocols`.
 
 ![Success](./assets/pref_http.png)
 
@@ -153,7 +153,7 @@ Identify the most likely cause of the issue.
 
 ## 3 How and where to capture
 
-Thorough preparation, including **network documentation and troubleshooting procedures**, is crucial!   
+Thorough preparation, including network documentation and troubleshooting procedures, is crucial!   
 When a problem arises, there won’t be time to analyze the network from scratch. Users expect swift and precise action.
 
 **3.1 Determine the optimal capture location**  
@@ -191,7 +191,7 @@ Capturing wireless network traffic is significantly more complex. Therefore, we 
 **3.4 Active interfaces**
 
 If Wireshark does not detect the interface, it cannot be used within the application.   
-You can view your available interfaces by navigating to **Capture → Options**.
+You can view your available interfaces by navigating to `Capture → Options`.
 
 ![Success](./assets/options.png)
 
@@ -210,7 +210,7 @@ Wireshark does not handle large capture files (pcap or pcapng) efficiently. To i
 Recommended practice: Aim to keep your files under 100 MB whenever possible.
 
 To clarify a few concepts, we will go through an exercise.  
-First, we launch Wireshark and navigate to **Capture → Options**.  
+First, we launch Wireshark and navigate to `Capture → Options`.  
 
 Our goal is to capture network traffic while splitting it into multiple files, each limited to 1MB or 10 seconds in duration, with the capture automatically stopping after five files.
 
