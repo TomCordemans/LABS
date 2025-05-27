@@ -536,6 +536,16 @@ Keep these tips in mind: choose eye-catching, unused color combinations, and alw
 
 ## 5 Tables and graphs
 
+**5.1 Who is communicating with whom?**
+
+The `Conversations window` provides a clear view of which hosts are communicating and the protocols they are using.   
+It allows us to easily identify the top talkers, and by integrating GeoIP databases, we gain a clear overview of external traffic.   
+
+An exercise will be used to help clarify certain concepts.   
+The following file will be used: [tabels.pcapng](https://www.tomcordemans.net/tabels.pcapng)   
+
+
+
 ## 6 Extract data out of network traffic
 
 ## 7 Straight from practice
