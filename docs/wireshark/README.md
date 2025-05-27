@@ -548,6 +548,24 @@ We are looking for the most active conversation. For this, we use `Statistics â€
 
 ![Success](./assets/table1.png)
 
+We obtain the following result. We select the TCP tab and sort by the Bytes column.   
+
+![Success](./assets/table2.png)
+
+Of course, we can now filter out a conversation to inspect it more closely.   
+
+![Success](./assets/table3.png)
+
+Wireshark can also utilize MaxMind GeoLite databases to map IPv4 and IPv6 addresses to geographic locations around the world.   
+More information about downloading these GeoLite databases can be found on the [following website](https://dev.maxmind.com/geoip/)
+
+
+
+
+
+
+
+
 
 ## 6 Extract data out of network traffic
 
