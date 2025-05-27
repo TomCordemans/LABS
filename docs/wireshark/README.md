@@ -542,7 +542,7 @@ The `Conversations window` provides a clear view of which hosts are communicatin
 It allows us to easily identify the top talkers, and by integrating GeoIP databases, we gain a clear overview of external traffic.   
 
 An exercise will be used to help clarify certain concepts.   
-The following file will be used: [tabels.pcapng](https://www.tomcordemans.net/tabels.pcapng)   
+The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng)   
 
 
 
