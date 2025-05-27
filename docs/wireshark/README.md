@@ -544,6 +544,9 @@ It allows us to easily identify the top talkers, and by integrating GeoIP databa
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng)   
 
+We are looking for the most active conversation. For this, we use `Statistics – Conversations`.   
+
+![Success](./assets/table1.png)
 
 
 ## 6 Extract data out of network traffic
