@@ -557,7 +557,7 @@ Of course, we can now filter out a conversation to inspect it more closely.
 ![Success](./assets/table3.png)
 
 Wireshark can also utilize MaxMind GeoLite databases to map IPv4 and IPv6 addresses to geographic locations around the world.   
-More information about downloading these GeoLite databases can be found on the [following website](https://dev.maxmind.com/geoip/)   
+More information about downloading these GeoLite databases can be found on the [following website](https://dev.maxmind.com/geoip/) .   
 
 Extract all files and place the files in a folder for example: C:\GeoIP.
 Then add some settings in WireShark. `Edit ‐ Preferences ‐ Name Resolution – MaxMind database directories ‐ Edit`.   
@@ -568,6 +568,9 @@ Now select `Statistics ‐ Endpoints´ and then select the IPv4 tab.
 
 ![Success](./assets/endpoints.png)
 
+Now select `Map` and get an overview of all external locations.   
+
+![Success](./assets/map.png)
 
 
 
