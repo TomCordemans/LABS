@@ -572,7 +572,14 @@ Now select `Map` and get an overview of all external locations.
 
 ![Success](./assets/map.png)
 
+**5.2 Summary of network protocols operating on your network.**
 
+To quickly gain insight into a network capture, using `Protocol Hierarchy Statistics` is a good starting point.   
+`Statistics – Protocol Hierarchy` reveals the full range of protocols and applications used in the captured network traffic.
+
+The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng) 
+
+![Success](./assets/hierarchy.png)
 
 
 
