@@ -126,10 +126,6 @@ If you need to manually associate a port with a specific protocol, you can do so
 
 ![Success](./assets/pref_http.png)
 
-**Statistics → Protocol Hierarchy** lets you identify issues with assigning dissectors to specific network traffic. The "Data" section refers to network traffic for which no appropriate dissector was found.
-
-![Success](./assets/data.png)
-
 **2.5 Hands-on exercise**
 
 To effectively troubleshoot with a network analyzer (such as Wireshark), a deep understanding of the OSI model and its associated protocols is essential. The following exercise will assess the students' knowledge and skills, allowing us to identify any necessary refresher training.
@@ -538,7 +534,7 @@ Keep these tips in mind: choose eye-catching, unused color combinations, and alw
 
 **5.1 Who is communicating with whom?**
 
-The `Conversations window` provides a clear view of which hosts are communicating and the protocols they are using.   
+The **Conversations window** provides a clear view of which hosts are communicating and the protocols they are using.   
 It allows us to easily identify the top talkers, and by integrating GeoIP databases, we gain a clear overview of external traffic.   
 
 An exercise will be used to help clarify certain concepts.   
@@ -560,7 +556,7 @@ Wireshark can also utilize MaxMind GeoLite databases to map IPv4 and IPv6 addres
 More information about downloading these GeoLite databases can be found on the [following website](https://dev.maxmind.com/geoip/) .   
 
 Extract all files and place the files in a folder for example: C:\GeoIP.
-Then add some settings in WireShark. `Edit ‐ Preferences ‐ Name Resolution – MaxMind database directories ‐ Edit`.   
+Then add some settings in WireShark. `Edit → Preferences → Name Resolution → MaxMind database directories → Edit`.   
 
 ![Success](./assets/geoip.png)
 
@@ -574,13 +570,21 @@ Now select `Map` and get an overview of all external locations.
 
 **5.2 Summary of network protocols operating on your network.**
 
-To quickly gain insight into a network capture, using `Protocol Hierarchy Statistics` is a good starting point.   
-`Statistics – Protocol Hierarchy` reveals the full range of protocols and applications used in the captured network traffic.
+To quickly gain insight into a network capture, using **Protocol Hierarchy Statistics** is a good starting point.   
+`Statistics → Protocol Hierarchy` reveals the full range of protocols and applications used in the captured network traffic.
 
 The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng) 
 
 ![Success](./assets/hierarchy.png)
 
+Sometimes, **Data** appears in the Protocol Hierarchy Statistics overview. Data usually means **Uninterpreted or Unknown Protocol**.  
+
+The most frequent causes are:   
+- The traffic is encapsulated in a protocol Wireshark can’t fully dissect.   
+- The traffic could be encrypted, proprietary, or non-standard.   
+- It might be a payload of a higher-level protocol that Wireshark doesn't decode by default.   
+
+![Success](./assets/data.png)
 
 
 
