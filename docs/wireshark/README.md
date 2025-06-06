@@ -467,7 +467,7 @@ The result is presented underneath.
 - Third method: Make use of Wireshark statistics   
 
 The socket pair to which frame 9 belongs is 185.43.124.11:80 and 192.168.1.129:49413. Based on this information, we use the following approach.   
-Go to `Statistics > Conversations` , then select the `TCP` tab and locate the specific socket pair.
+Go to `Statistics → Conversations` , then select the `TCP` tab and locate the specific socket pair.
 
 ![Success](./assets/display4_5.png) 
 
@@ -512,7 +512,7 @@ Sometimes these coloring rules are also perceived as annoying. You can disable a
 
 ![Success](./assets/coloring_rule1.png) 
 
-If you want to disable a specific coloring rule, you can do so via `View ‐ Coloring Rules`.
+If you want to disable a specific coloring rule, you can do so via `View → Coloring Rules`.
 
 ![Success](./assets/coloring_rule2.png) 
 
@@ -540,7 +540,7 @@ It allows us to easily identify the top talkers, and by integrating GeoIP databa
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng)   
 
-We are looking for the most active conversation. For this, we use `Statistics – Conversations`.   
+We are looking for the most active conversation. For this, we use `Statistics → Conversations`.   
 
 ![Success](./assets/table1.png)
 
