@@ -596,6 +596,11 @@ A graph will be created to represent the traffic to and from 192.168.1.0/24, as 
 
 ![Success](./assets/graphs.png)
 
+After entering the necessary display filters, adjusting the Y-axis to bits, and making a few style modifications, we obtain the following result.
+
+![Success](./assets/graphs2.png)
+
+**5.4 Spot possible faults**
 
 
 
