@@ -570,8 +570,7 @@ Now select `Map` and get an overview of all external locations.
 
 **5.2 Summary of network protocols operating on your network.**
 
-To quickly gain insight into a network capture, using **Protocol Hierarchy Statistics** is a good starting point.   
-`Statistics → Protocol Hierarchy` reveals the full range of protocols and applications used in the captured network traffic.
+To quickly gain insight into a network capture, using **Protocol Hierarchy Statistics** is a good starting point. `Statistics → Protocol Hierarchy` reveals the full range of protocols and applications used in the captured network traffic.
 
 The following file will be used: [tables.pcapng](https://www.tomcordemans.net/tables.pcapng) 
 
@@ -585,6 +584,19 @@ The most frequent causes are:
 - It might be a payload of a higher-level protocol that Wireshark doesn't decode by default.   
 
 ![Success](./assets/data.png)
+
+**5.3 Graph-based data visualization**   
+
+Graphs help us analyze certain things more easily.   
+
+An exercise will be used to help clarify certain concepts.   
+The following file will be used: [graphs.pcapng](https://www.tomcordemans.net/graphs.pcapng)   
+
+A graph will be created to represent the traffic to and from 192.168.1.0/24, as well as the remaining traffic.   
+
+![Success](./assets/graphs.png)
+
+
 
 
 
