@@ -611,6 +611,13 @@ The circle in the lower left corner provides quick access to this tool. The colo
 Click on the circle to get an overview of the events.
 ![Success](./assets/expert-info.png)   
 
+As you can see, Wireshark can detect various network issues, but determining the root cause and potential impact is a different matter altogether.   
+Use appropriate resources to gather more information.   
+
+An exercise will be used to help clarify certain concepts.   
+The following file will be used: [download.pcapng](https://www.tomcordemans.net/download.pcapng)   
+
+The user is complaining about poor network performance. By using Expert Information, we will investigate the cause.
 
 
 ## 6 Extract data out of network traffic
