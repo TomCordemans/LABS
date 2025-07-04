@@ -602,6 +602,14 @@ After entering the necessary display filters, adjusting the Y-axis to bits, and 
 
 **5.4 Spot possible faults**
 
+An interesting tool is the Expert Information.   
+The following file will be used: [delay.pcapng](https://www.tomcordemans.net/delay.pcapng)  
+
+The circle in the lower left corner provides quick access to this tool. The color of the circle already indicates the severity of the detected events.   
+![Success](./assets/expert.png)   
+
+Click on the circle to get an overview of the events.
+![Success](./assets/expert-info.png)   
 
 
 
