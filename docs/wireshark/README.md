@@ -560,7 +560,7 @@ Then add some settings in WireShark. `Edit → Preferences → Name Resolution �
 
 ![Success](./assets/geoip.png)
 
-Now select `Statistics ‐ Endpoints´ and then select the IPv4 tab.
+Now select `Statistics ‐ Endpoints` and then select the IPv4 tab.
 
 ![Success](./assets/endpoints.png)
 
@@ -620,10 +620,11 @@ The user is complaining about poor network performance. By using **Expert Inform
 
 ![Success](./assets/download.png)   
 
-Among the warnings, we find **TCP Window Full** and **TCP Zero Window Segment**. By focusing on frame 363 and the following ones, we can conclude that this is where the root cause lies.   
-After consulting the appropriate sources, we determine that the client is overloaded at that specific moment (it has run out of receive buffer space).
-When Wireshark detects network issues, it marks the relevant packets with `tcp.analysis.flags`.
-(Note: **TCP Window Update** can also be benign and should therefore be filtered out.)
+Among the warnings, we find **TCP Window Full** and **TCP Zero Window Segment**. Frame 363 and subsequent frames indicate the point at which the root cause emerges.   
+
+After consulting the appropriate frames, we determine that the client is overloaded at that specific moment (it has run out of receive buffer space).
+When Wireshark detects network issues, it marks the relevant packets with `tcp.analysis.flags`.   
+(Note: **TCP Window Update** can also be benign and should therefore be filtered out.)   
 
 A clear graphical representation that illustrates the situation well can be found below.   
 
