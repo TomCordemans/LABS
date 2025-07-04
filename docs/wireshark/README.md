@@ -602,7 +602,7 @@ After entering the necessary display filters, adjusting the Y-axis to bits, and 
 
 **5.4 Spot possible faults**
 
-An interesting tool is the Expert Information.   
+An interesting tool is the **Expert Information**.   
 The following file will be used: [delay.pcapng](https://www.tomcordemans.net/delay.pcapng)  
 
 The circle in the lower left corner provides quick access to this tool. The color of the circle already indicates the severity of the detected events.   
@@ -617,7 +617,7 @@ Use appropriate resources to gather more information.
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [download.pcapng](https://www.tomcordemans.net/download.pcapng)   
 
-The user is complaining about poor network performance. By using Expert Information, we will investigate the cause.
+The user is complaining about poor network performance. By using **Expert Information**, we will investigate the cause.
 
 
 ## 6 Extract data out of network traffic
