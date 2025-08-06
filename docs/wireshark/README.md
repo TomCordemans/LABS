@@ -647,7 +647,7 @@ Of course, HTTP is no longer widely used on the Internet. Contemporary standards
 However, both protocols employ encryption, rendering their contents inaccessible through conventional inspection methods.   
 In a subsequent chapter, we will explore potential approaches for decrypting HTTPS and QUIC traffic in order to retrieve human-readable data.   
 
-**6.2 Extract files**
+**6.2 Extract files out of an FTP stream**
 
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [ftp.pcapng](https://www.tomcordemans.net/ftp.pcapng)   
