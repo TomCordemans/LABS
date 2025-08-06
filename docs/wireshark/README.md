@@ -636,14 +636,14 @@ A clear graphical representation that illustrates the situation well can be foun
 
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [http.pcapng](https://www.tomcordemans.net/http.pcapng)   
-"The website `www.online-tech-tips.com` contains hidden messages. Who can find them?   
+The website `www.online-tech-tips.com` contains hidden messages. Who can find them?   
 We select frame 856 and perform **Follow HTTP Stream**.   
 
 ![Success](./assets/http1.png)
 
 ![Success](./assets/http2.png)   
 
-Of course, HTTP is no longer widely used on the Internet. Contemporary standards such as HTTPS and QUIC have become predominant.   
+Of course, HTTP is no longer widely used on the Internet. Contemporary standards such as HTTPS and QUIC have become predominant.
 However, both protocols employ encryption, rendering their contents inaccessible through conventional inspection methods.   
 In a subsequent chapter, we will explore potential approaches for decrypting HTTPS and QUIC traffic in order to retrieve human-readable data.   
 
