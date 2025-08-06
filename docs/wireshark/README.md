@@ -632,6 +632,18 @@ A clear graphical representation that illustrates the situation well can be foun
 
 ## 6 Extract data out of network traffic
 
+**6.1 Reassemble a HTTP stream**
+
+An exercise will be used to help clarify certain concepts.   
+The following file will be used: [http.pcapng](https://www.tomcordemans.net/http.pcapng)   
+"The website `www.online-tech-tips.com` contains hidden messages. Who can find them?
+We select frame 856 and perform `Follow HTTP Stream`.
+
+![Success](./assets/http1.png)
+
+![Success](./assets/http2.png)
+
+
 ## 7 Straight from practice
 
 ## 8 Wireless LAN
