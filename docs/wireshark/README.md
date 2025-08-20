@@ -654,10 +654,16 @@ The following file will be used: [ftp.pcapng](https://www.tomcordemans.net/ftp.p
 
 Select frame 45 and perform `Follow TCP Stream`. The main goal is to recover the file hacker.png.   
 The session consists of two parts: the login phase and a file transfer.   
-Select `Filter Out This Stream`.   
 
 ![Success](./assets/ftp.png)   
 
+Select frame 66 and perform `Follow TCP Stream`. The file signature (magic bytes) corresponding to a PNG format becomes clearly visible.   
+
+![Success](./assets/ftp1.png)
+
+Change the field `Show as`to Raw, then select `Save As` and name the file hacker.png. Afterward, open the image to view it.   
+
+![Success](./assets/hacker.png)
 
 ## 7 Straight from practice
 
