@@ -652,6 +652,12 @@ In a subsequent chapter, we will explore potential approaches for decrypting HTT
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [ftp.pcapng](https://www.tomcordemans.net/ftp.pcapng)   
 
+Select frame 45 and perform `Follow TCP Stream`. The main goal is to recover the file hacker.png.   
+The session consists of two parts: the login phase and a file transfer.   
+Select `Filter Out This Stream`.   
+
+![Success](./assets/ftp.png)   
+
 
 ## 7 Straight from practice
 
