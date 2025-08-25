@@ -669,6 +669,26 @@ You can also use `File` → `Export Objects` → `FTP-DATA` as a faster alternat
 
 ![Success](./assets/ftp2.png)
 
+**6.3 Extract images out of a stream**
+
+In the subsequent exercise [cartoons.pcapng](https://www.tomcordemans.net/cartoons.pcapng), the objective is to visualize all photographs and figures accessed by a user on a website. While this task could be performed manually, the use of the application NetworkMiner (Free Edition) constitutes a more efficient and appropriate solution.   
+**Question:**  
+How many JPEG files can be extracted?   
+
+A screenshot of the NetworkMiner application is shown below.   
+![Success](./assets/networkminer.png)   
+
+**6.4 Extract video out of a stream**
+
+In the subsequent exercise [video.pcapng](https://www.tomcordemans.net/video.pcapng), the objective is to visualize the video stream.    
+**Question:**  
+   
+
+A screenshot of the NetworkMiner application is shown below.   
+![Success](./assets/networkminer.png)   
+
+
+
 
 
 ## 7 Straight from practice
@@ -700,3 +720,6 @@ Use the display filter `tcp.flags == 0x0002 && ip.dst == 192.168.1.129`
 * Part 2   
 In what ways can delays within a conversation be detected?   
 Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta > 1`
+
+**6.3 Extract images out of a stream**   
+* How many JPEG files can be extracted?  `29`
