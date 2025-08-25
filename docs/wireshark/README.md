@@ -682,10 +682,12 @@ A screenshot of the NetworkMiner application is shown below.
 
 In the subsequent exercise [video.pcapng](https://www.tomcordemans.net/video.pcapng), the objective is to visualize the video stream.    
 **Question:**  
-   
+ Which message is displayed in the video stream?   
 
-A screenshot of the NetworkMiner application is shown below.   
-![Success](./assets/networkminer.png)   
+ As this exercise is not trivial, the methodology is outlined below.
+
+- Step 1: Find the video stream in the network traffic. (Identify streams that consume high amounts of bandwidth)
+![Success](./assets/bandwidth.png)  
 
 
 
