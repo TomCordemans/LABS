@@ -671,23 +671,46 @@ You can also use `File` → `Export Objects` → `FTP-DATA` as a faster alternat
 
 **6.3 Extract images out of a stream**
 
-In the subsequent exercise [cartoons.pcapng](https://www.tomcordemans.net/cartoons.pcapng), the objective is to visualize all photographs and figures accessed by a user on a website. While this task could be performed manually, the use of the application NetworkMiner (Free Edition) constitutes a more efficient and appropriate solution.   
+In the subsequent exercise [cartoons.pcapng](https://www.tomcordemans.net/cartoons.pcapng), the objective is to visualize all photographs and figures accessed by a user on a website. While this task could be performed manually, the use of the application [NetworkMiner (Free Edition)](https://www.netresec.com/?page=NetworkMiner) constitutes a more efficient and appropriate solution.   
+
 **Question:**  
 How many JPEG files can be extracted?   
 
 A screenshot of the NetworkMiner application is shown below.   
+
 ![Success](./assets/networkminer.png)   
 
 **6.4 Extract video out of a stream**
 
 In the subsequent exercise [video.pcapng](https://www.tomcordemans.net/video.pcapng), the objective is to visualize the video stream.    
+
 **Question:**  
  Which message is displayed in the video stream?   
 
  As this exercise is not trivial, the methodology is outlined below.
 
-- Step 1: Find the video stream in the network traffic. (Identify streams that consume high amounts of bandwidth)
+- Step 1: Find the video stream in the network traffic. (Identify streams that consume high amounts of bandwidth)   
+
 ![Success](./assets/bandwidth.png)  
+
+- Step 2: Apply a filter to the video stream and present it visually.
+
+![Success](./assets/flv.png)  
+
+- Step 3: Identify the video stream using the magic bytes (FLV). This is clearly the Flash video format.
+
+- Step 4: Extract the video stream and save it as video.flv.
+
+- Step 5: Open the file with a media player; unfortunately, playback is unsuccessful.
+
+- Step 6: To repair the video file, utilize a specialized tool like Stellar Repair for Video.
+
+- Step 7: Open the repaired file with a media player.
+
+![Success](./assets/video.png)  
+
+FYI: The message can be found in a different conversation. 
+
 
 
 
@@ -724,4 +747,7 @@ In what ways can delays within a conversation be detected?
 Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta > 1`
 
 **6.3 Extract images out of a stream**   
-* How many JPEG files can be extracted?  `29`
+* How many JPEG files can be extracted? `29`
+
+**6.4 Extract video out of a stream**
+*  Which message is displayed in the video stream? `FLAG {BIG-BROTHER}`
