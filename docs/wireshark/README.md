@@ -661,9 +661,15 @@ Select frame 66 and perform `Follow TCP Stream`. The file signature (magic bytes
 
 ![Success](./assets/ftp1.png)
 
-Change the field `Show as`to Raw, then select `Save As` and name the file hacker.png. Afterward, open the image to view it.   
+Change the field `Show as`to Raw, then select `Save As` and name the file hacker.png. Finally, open the image to view it.   
 
 ![Success](./assets/hacker.png)
+
+You can also use `File` → `Export Objects` → `FTP-DATA` as a faster alternative.   
+
+![Success](./assets/ftp2.png)
+
+
 
 ## 7 Straight from practice
 
