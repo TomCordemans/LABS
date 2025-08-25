@@ -501,8 +501,6 @@ Question: In what ways can delays within a conversation be detected?
 
 **4.3 Coloring network packets**
 
-Hier is de vertaling in het Engels:
-
 Wireshark automatically colors packets based on coloring rules.
 In the frame section, you can find the `Coloring Rule Name` and `Coloring Rule String`.
 
@@ -721,6 +719,23 @@ FYI: The message can be found in a different conversation.
 ## 8 Wireless LAN
 
 ## 9 Nice to know
+
+**9.1 Add notes to a PCAPNG file**
+
+Comprehensive documentation is of paramount importance, as it serves as the foundation for effective troubleshooting. Global annotations may be applied to pcapng files, whereas pcap files do not support this feature.   
+An exercise will be used to help clarify certain concepts.   
+The following file will be used: [notes.pcapng](https://www.tomcordemans.net/notes.pcapng)   
+
+- General comments   
+
+General comments can be appended to a PCAPNG file via `Edit Comments` within the `Capture File Properties`.   
+
+![Success](./assets/notes.png)  
+
+- Packet comments
+
+
+
 
 ## 10 Other sources
 
