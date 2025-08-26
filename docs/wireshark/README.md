@@ -765,7 +765,14 @@ By default, a Wireshark installation includes several command line tools. Below 
 - Dumpcap: Captures network traffic.   
 - Tshark: Captures and analyzes network traffic.
 
-More tools can be found [here](https://www.wireshark.org/docs/man-pages/).   
+More tools and extra information can be found [here](https://www.wireshark.org/docs/man-pages/).  
+
+This section provides a brief study of Tshark’s basic operations.   
+
+An overview of all options can be obtained using the command `tshark.exe -h`.   
+
+![Success](./assets/tshark.png)
+
 
 
 
