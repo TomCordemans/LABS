@@ -720,7 +720,7 @@ FYI: The message can be found in a different conversation.
 
 ## 9 Nice to know
 
-**9.1 Add notes to a PCAPNG file**
+**9.1 Add notes to a PCAPng file**
 
 Comprehensive documentation is of paramount importance, as it serves as the foundation for effective troubleshooting. Global annotations may be applied to pcapng files, whereas pcap files do not support this feature.   
 An exercise will be used to help clarify certain concepts.   
@@ -728,9 +728,13 @@ The following file will be used: [notes.pcapng](https://www.tomcordemans.net/not
 
 - General comments   
 
-General comments can be appended to a PCAPNG file via `Edit Comments` within the `Capture File Properties`.   
+General comments can be appended to a PCAPng file via `Edit Comments` within the `Capture File Properties`.   
 
 ![Success](./assets/notes.png)  
+
+Multiple general comments can be added to a PCAPng file. These notes are consistently displayed in the `Capture File Properties`.   
+
+![Success](./assets/notes1.png)  
 
 - Packet comments
 
