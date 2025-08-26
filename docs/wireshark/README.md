@@ -773,10 +773,13 @@ An overview of all options can be obtained using the command `tshark.exe -h`.
 
 ![Success](./assets/tshark.png)
 
+An overview of all available interfaces can be obtained using the command `tshark.exe -D`.   
 
+![Success](./assets/tshark1.png)
 
+Capture traffic on the Ethernet interface, automatically stopping after 5 files, and create a new file every 10 seconds using ‘demo.pcapng’ as the base name.   
 
-
+![Success](./assets/tshark2.png)
 
 ## 10 Other sources
 
