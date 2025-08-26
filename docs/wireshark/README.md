@@ -738,6 +738,17 @@ Multiple general comments can be added to a PCAPng file. These notes are consist
 
 - Packet comments
 
+It is also possible to annotate specific packets with additional information.   
+
+![Success](./assets/notes2.png)  
+
+This information can later be easily retrieved in various ways.   
+
+....- Via the Packet Details Pane   
+
+![Success](./assets/notes3.png) 
+
+
 
 
 
