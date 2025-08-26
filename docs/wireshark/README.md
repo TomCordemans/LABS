@@ -752,7 +752,7 @@ This information can later be easily retrieved in various ways.
 
 ![Success](./assets/notes4.png)
 
-3. Via the Packet Comments
+3. Via the Capture File Properties
 
 ![Success](./assets/notes5.png)
 
