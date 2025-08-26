@@ -758,6 +758,16 @@ This information can later be easily retrieved in various ways.
 
 **9.2 Command line tools**
 
+By default, a Wireshark installation includes several command line tools. Below is an overview of some commonly used tools.   
+- Editcap: Converts capture files in various ways.   
+- Capinfos: Prints information about capture files.   
+- Mergecap: Combines multiple capture files into a single file.
+- Dumpcap: Captures network traffic.   
+- Tshark: Captures and analyzes network traffic.
+
+More tools can be found [here](https://www.wireshark.org/docs/man-pages/).   
+
+
 
 
 
