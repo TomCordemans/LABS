@@ -777,9 +777,13 @@ An overview of all available interfaces can be obtained using the command `tshar
 
 ![Success](./assets/tshark1.png)
 
-Capture traffic on the Ethernet interface, automatically stopping after 5 files, and create a new file every 10 seconds using ‘demo.pcapng’ as the base name.   
+Capture traffic on the Ethernet interface, automatically stopping after 5 files, and create a new file every 10 seconds using ‘demo.pcapng’ as the base name. This is done using the following command: `tshark.exe -i 11 -a files:5 -b duration:10 -w demo.pcapng`.   
 
 ![Success](./assets/tshark2.png)
+
+A quick analysis of network traffic can be obtained using the following command: `tshark.exe -i 11 -qz io,phs` .   
+
+![Success](./assets/tshark3.png)
 
 ## 10 Other sources
 
