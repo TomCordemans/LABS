@@ -744,10 +744,19 @@ It is also possible to annotate specific packets with additional information.
 
 This information can later be easily retrieved in various ways.   
 
-....- Via the Packet Details Pane   
+1. Via the Packet Details Pane   
 
 ![Success](./assets/notes3.png) 
 
+2. Via the Expert Information
+
+![Success](./assets/notes4.png)
+
+3. Via the Packet Comments
+
+![Success](./assets/notes5.png)
+
+**9.2 Command line tools**
 
 
 
