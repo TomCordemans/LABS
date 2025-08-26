@@ -28,7 +28,7 @@ Wireshark is available under an open-source license and is compatible with multi
 * The **Core engine** supports thousands of dissectors and puts everything in a readable format.   
 * The **Dumpcap capture engine** determines how the capture process starts and stops.   
 * The **libpcap/Npcap** is a specific driver that takes the frames from the network and offers them to the **Dumpcap capture engine**.   
-* When you open a saved pcapng file in Wireshark, you use the **Wiretap library** to offer the saved frames to the **Core engine**.   
+* When you open a saved PCAPng file in Wireshark, you use the **Wiretap library** to offer the saved frames to the **Core engine**.   
 
 **1.2. When to use Wireshark?**
 
@@ -49,11 +49,11 @@ In this exercise, we will take a quick tour of the main window, along with the v
 The following file will be used: [intro.pcapng](https://www.tomcordemans.net/intro.pcapng) 
 
 Questions:
-* How many packets does this pcapng file contain?
+* How many packets does this PCAPng file contain?
 * What IP addresses made a TCP connection in frames 18, 21, and 22?
 * What HTTP command was sent by the client in frame 23?
 * What response was sent by the HTTP server in frame 29?
-* What is the length of the largest frame in this pcapng file?
+* What is the length of the largest frame in this PCAPng file?
 * What protocols are visible in the protocol column?
 * What web browser was used by the client?
 
@@ -201,7 +201,7 @@ Disabling the TCP/IP stack will ensure that Wireshark continues to function whil
 
 **3.6 Managing large volumes of network traffic**
 
-Wireshark does not handle large capture files (pcap or pcapng) efficiently. To improve performance, you can use a **File Set** to split large files into smaller ones that Wireshark can process more quickly.
+Wireshark does not handle large capture files (PCAP or PCAPng) efficiently. To improve performance, you can use a **File Set** to split large files into smaller ones that Wireshark can process more quickly.
 
 Recommended practice: Aim to keep your files under 100 MB whenever possible.
 
@@ -722,7 +722,7 @@ FYI: The message can be found in a different conversation.
 
 **9.1 Add notes to a PCAPng file**
 
-Comprehensive documentation is of paramount importance, as it serves as the foundation for effective troubleshooting. Global annotations may be applied to pcapng files, whereas pcap files do not support this feature.   
+Comprehensive documentation is of paramount importance, as it serves as the foundation for effective troubleshooting. Annotations may be applied to PCAPpng files, whereas PCAP files do not support this feature.   
 An exercise will be used to help clarify certain concepts.   
 The following file will be used: [notes.pcapng](https://www.tomcordemans.net/notes.pcapng)   
 
@@ -776,11 +776,11 @@ More tools can be found [here](https://www.wireshark.org/docs/man-pages/).
 ## 11 Answers
 
 **1.3. First exploration**
-* How many packets does this pcapng file contain? `3200`
+* How many packets does this PCPAng file contain? `3200`
 * What IP addresses made a TCP connection in frames 18, 21, and 22? `192.168.1.129 and 195.238.0.64`
 * What HTTP command was sent by the client in frame 23? `GET`
 * What response was sent by the HTTP server in frame 29? `Status Code 302`
-* What is the length of the largest frame in this pcapng file? `1514 bytes`
+* What is the length of the largest frame in this PCAPng file? `1514 bytes`
 * What protocols are visible in the protocol column? `DNS, HTTP, IGMPv2, TCP and TLSv1`
 * What web browser was used by the client? `Internet Explorer 11 (User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko)`
 
