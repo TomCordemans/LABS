@@ -723,17 +723,20 @@ Wireless signals degrade with distance, obstacles, and interference. You may not
 
 For this purpose, a dedicated configuration is used to capture WLAN traffic.
 - KALI Linux as operating system
-- ALFA AWUS036NHA as the network adapter
+- ALFA AWUS036NHA as the network adapter (Seen as Qualcomm Atheros AR9271 801.11n)
 
 **8.1 Capture, analyze and decrypt wireless traffic**
 
 1. Display the list of available adapters.   
+
 ![Success](./assets/wlan1.png)   
 
 2. Kill the network managers. (To Avoid interference with other tools)   
+
 ![Success](./assets/wlan2.png)
 
 3. Put the adapter in monitor mode.   
+
 ![Success](./assets/wlan3.png)
 
 
