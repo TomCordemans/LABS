@@ -713,7 +713,18 @@ FYI: The message can be found in a different conversation.
 
 ## 8 Wireless LAN
 
-Capturing WLAN traffic requires specialized hardware support, correct setup (monitor mode, channel selection), and often cryptographic material (keys/handshakes). That’s why it’s not as straightforward as plugging into a switch for wired Ethernet.
+Capturing WLAN traffic requires specialized hardware support, correct setup (monitor mode, channel selection), and often cryptographic material (keys/handshakes). That’s why it’s not as straightforward as plugging into a switch for wired Ethernet.   
+A standard WLAN adapter normally only processes frames destined for it. To capture all wireless frames, the adapter must support monitor mode. Not all hardware or drivers allow this, especially on Windows.   
+WLAN also operates on multiple channels (2.4 GHz, 5 GHz, 6 GHz). An adapter can usually listen to only one channel at a time, so you may miss traffic unless you channel-hop or use multiple adapters.   
+Wireless signals degrade with distance, obstacles, and interference. You may not capture all packets if your capture device has poor reception.   
+
+For this purpose, a dedicated configuration is used to capture WLAN traffic.
+- KALI Linux as operating system
+- ALFA AWUS036NHA as the network adapter
+
+
+
+
 
 ## 9 Nice to know
 
