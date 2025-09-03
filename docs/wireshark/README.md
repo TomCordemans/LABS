@@ -722,7 +722,16 @@ For this purpose, a dedicated configuration is used to capture WLAN traffic.
 - KALI Linux as operating system
 - ALFA AWUS036NHA as the network adapter
 
+**8.1 Capture, analyze and decrypt wireless traffic**
 
+1. Display the list of available adapters.   
+![Success](./assets/wlan1.png)   
+
+2. Kill the network managers. (To Avoid interference with other tools)   
+![Success](./assets/wlan2.png)
+
+3. Put the adapter in monitor mode.   
+![Success](./assets/wlan3.png)
 
 
 
