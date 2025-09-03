@@ -709,14 +709,11 @@ In the subsequent exercise [video.pcapng](https://www.tomcordemans.net/video.pca
 
 FYI: The message can be found in a different conversation. 
 
-
-
-
-
-
 ## 7 Straight from practice
 
 ## 8 Wireless LAN
+
+Capturing WLAN traffic requires specialized hardware support, correct setup (monitor mode, channel selection), and often cryptographic material (keys/handshakes). That’s why it’s not as straightforward as plugging into a switch for wired Ethernet.
 
 ## 9 Nice to know
 
