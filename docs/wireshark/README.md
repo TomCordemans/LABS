@@ -727,15 +727,15 @@ For this purpose, a dedicated configuration is used to capture WLAN traffic.
 
 **8.1 Capture, analyze and decrypt wireless traffic**
 
-1. Display the list of available adapters.   
+1. Run the command `sudo airmon-ng` to display the list of available adapters.   
 
 ![Success](./assets/wlan1.png)   
 
-2. Kill the network managers. (To Avoid interference with other tools)   
+2. Enter the command `sudo airmon-ng check kill` to avoid interference with other tools.   
 
 ![Success](./assets/wlan2.png)
 
-3. Put the adapter in monitor mode.   
+3. Execute the command `sudo airmon-ng start wlan1`to put the adapter in monitor mode.   
 
 ![Success](./assets/wlan3.png)
 
