@@ -747,11 +747,11 @@ Our focus is on the wireless network identified as Demo-WLAN, which operates on 
 
 5. Run the command `sudo wireshark` to start Wireshark and add the `Wireless toolbar` via the `View` menu. Change the channel to 1 and double-click on the interface `wlan1mon`.
 
-[Success](./assets/wlan5.png)
+![Success](./assets/wlan5.png)
 
 6. The captured frames are displayed. This visualization is not ideal since multiple SSIDs are visible, while we are only interested in Demo-WLAN.
 
-[Success](./assets/wlan6.png)
+![Success](./assets/wlan6.png)
 
 
 ## 9 Nice to know
