@@ -730,6 +730,8 @@ For this purpose, a dedicated configuration is used to capture WLAN traffic.
 - KALI Linux as operating system
 - ALFA AWUS036NHA as the network adapter (Seen as Qualcomm Atheros AR9271 801.11n)
 
+![Success](./assets/alfa.png)  
+
 **8.1 Capture, analyze and decrypt wireless traffic**
 
 1. Run the command `sudo airmon-ng` to display the list of available adapters.   
