@@ -713,6 +713,9 @@ FYI: The message can be found in a different conversation.
 
 ## 8 Wireless LAN
 
+Capturing wireless network traffic is not straightforward, which is why it is often considered a last resort.
+If a user experiences an issue on the wireless network, the first question to ask is whether the same issue also occurs on the wired network. This approach helps avoid the complexity of a wireless capture. Another practical alternative is to capture traffic directly behind the access point. This method has proven to be a valid substitute, since wireless traffic ultimately traverses the wired network at some point.
+
 Capturing WLAN traffic requires specialized hardware support, correct setup (monitor mode, channel selection), and often cryptographic material (keys/handshakes). That’s why it’s not as straightforward as plugging into a switch for wired Ethernet.   
 
 A standard WLAN adapter normally only processes frames destined for it. To capture all wireless frames, the adapter must support monitor mode. Not all hardware or drivers allow this, especially on Windows.   
