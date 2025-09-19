@@ -711,6 +711,28 @@ FYI: The message can be found in a different conversation.
 
 ## 7 Straight from practice
 
+**7.1 Decryption of TLS sessions**
+
+In computer networks, communication between clients and servers is frequently encrypted. For instance, the HTTP protocol is now almost exclusively employed in its secure variant, HTTPS, for interactions with web servers.   
+This development has significant implications for the analysis of network traffic. Nevertheless, techniques are available to decrypt HTTPS traffic.   
+The following section provides a overview of the approach applied within Wireshark.   
+
+- Step 1: Completely close the Google Chrome web browser.
+
+- Step 2: Launch Wireshark, choose the appropriate network interface, and begin capturing traffic.
+
+- Step 3: Select `Tools` → `TLS Keylog Launcher`
+
+![Success](./assets/keylog.png)
+
+The path for the initial file can be defined by the user.   
+The file path associated with Google Chrome is dependent on the specific system configuration.   
+
+- Step 4: 
+
+
+
+
 ## 8 Wireless LAN
 
 Capturing wireless network traffic is not straightforward, which is why it is often considered a last resort.
