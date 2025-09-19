@@ -778,33 +778,33 @@ For this purpose, a dedicated configuration is used to capture WLAN traffic.
 
 **8.1 Capture, analyze and decrypt wireless traffic**
 
-1. Run the command `sudo airmon-ng` to display the list of available adapters.   
+- Step 1: Run the command `sudo airmon-ng` to display the list of available adapters.   
 
 ![Success](./assets/wlan1.png)   
 
-2. Enter the command `sudo airmon-ng check kill` to avoid interference with other tools.   
+- Step 2: Enter the command `sudo airmon-ng check kill` to avoid interference with other tools.   
 
 ![Success](./assets/wlan2.png)
 
-3. Execute the command `sudo airmon-ng start wlan1`to put the adapter in monitor mode.   
+- Step 3: Execute the command `sudo airmon-ng start wlan1`to put the adapter in monitor mode.   
 
 ![Success](./assets/wlan3.png)
 
-4. Use the command `sudo airodump-ng wlan1mon` to scan for WLAN networks.
+- Step 4: Use the command `sudo airodump-ng wlan1mon` to scan for WLAN networks.
 
 ![Success](./assets/wlan4.png)
 
 Our focus is on the wireless network identified as Demo-WLAN, which operates on channel 1.
 
-5. Run the command `sudo wireshark` to start Wireshark and add the `Wireless toolbar` via the `View` menu. Change the channel to 1 and double-click on the interface `wlan1mon`.
+- Step 5: Run the command `sudo wireshark` to start Wireshark and add the `Wireless toolbar` via the `View` menu. Change the channel to 1 and double-click on the interface `wlan1mon`.
 
 ![Success](./assets/wlan5.png)
 
-6. The captured frames are displayed. This visualization is not ideal since multiple SSIDs are visible, while we are only interested in Demo-WLAN.
+- Step 6: The captured frames are displayed. This visualization is not ideal since multiple SSIDs are visible, while we are only interested in Demo-WLAN.
 
 ![Success](./assets/wlan6.png)
 
-7. A simpler and more efficient approach is to use the command `sudo airodump-ng --bssid 66:22:32:1B:26:66 -c 1 -w ./Desktop/our_capture wlan1mon`.   
+- Step 7: A simpler and more efficient approach is to use the command `sudo airodump-ng --bssid 66:22:32:1B:26:66 -c 1 -w ./Desktop/our_capture wlan1mon`.   
 This causes us to capture only the frames that belong to the wireless network Demo-WLAN. We can then further analyze our capture with Wireshark.    
 This is therefore a typical example where Wireshark is not used for capturing but only for analyzing network traffic.
 
@@ -817,18 +817,14 @@ The handshake can also be visualized in Wireshark using the display filter `eapo
 
 ![Success](./assets/wlan-eapol2.png)
 
-8. Below you will find the settings to decrypt the captured wireless network traffic.
+- Step 8: Below you will find the settings to decrypt the captured wireless network traffic.
 Select `Edit` → `Preferences` → `Protocols` → `IEEE 802.11` → `Decryption keys Edit`
 
 ![Success](./assets/wlan-keys.png)
 
-9. After a successful decryption, we can clearly visualize different protocols, such as ARP.
+- Step 9: After a successful decryption, we can clearly visualize different protocols, such as ARP.
 
 ![Success](./assets/wlan-arp.png)
-
-
-
-
 
 ## 9 Nice to know
 
