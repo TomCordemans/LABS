@@ -760,6 +760,19 @@ Our focus is on the wireless network identified as Demo-WLAN, which operates on 
 
 ![Success](./assets/wlan6.png)
 
+7. A simpler and more efficient approach is to use the command `sudo airodump-ng --bssid 66:22:32:1B:26:66 -c 1 -w ./Desktop/our_capture wlan1mon`.   
+This causes us to capture only the frames that belong to the wireless network Demo-WLAN. We can then further analyze our capture with Wireshark.    
+This is therefore a typical example where Wireshark is not used for capturing but only for analyzing network traffic.
+
+![Success](./assets/wlan-eapol.png)   
+
+It is very important to know that encrypted wireless network traffic can only be decrypted if the handshake can be captured. (See the top left of the figure above.)  
+The handshake can be obtained easily by connecting an additional device to the target network or by triggering a deauthentication attack on an already connected device.
+
+
+
+
+
 
 ## 9 Nice to know
 
