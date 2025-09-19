@@ -767,7 +767,15 @@ This is therefore a typical example where Wireshark is not used for capturing bu
 ![Success](./assets/wlan-eapol.png)   
 
 It is very important to know that encrypted wireless network traffic can only be decrypted if the handshake can be captured. (See the top left of the figure above.)  
-The handshake can be obtained easily by connecting an additional device to the target network or by triggering a deauthentication attack on an already connected device.
+The handshake can be obtained easily by connecting an additional device to the target network or by triggering a deauthentication attack on an already connected device.   
+
+The handshake can also be visualized in Wireshark using the display filter `eapol`.
+
+![Success](./assets/wlan-eapol2.png)
+
+8. Below you will find the settings to decrypt the captured wireless network traffic.
+Select `Edit` → `Preferences` → `Protocols` → `IEEE 802.11` → `Decryption keys Edit`
+
 
 
 
