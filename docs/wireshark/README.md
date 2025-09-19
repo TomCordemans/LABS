@@ -755,6 +755,11 @@ The network traffic is no longer encrypted!!!
 To decrypt the traffic, you currently need both the keys.txt file and the capture file, which is not very convenient. It’s better to inject the secrets directly into your capture file.   
 This can be done easily via `Edit` → `Inject TLS Secrets`.   
 
+**Question:**  
+The Wireshark.org website contains several hidden messages. Can you identify them by analyzing the network traffic?   
+(Hint: x-slogan)
+
+
 ## 8 Wireless LAN
 
 Capturing wireless network traffic is not straightforward, which is why it is often considered a last resort.
@@ -921,4 +926,7 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 * How many JPEG files can be extracted? `29`
 
 **6.4 Extract video out of a stream**
-*  Which message is displayed in the video stream? `FLAG {BIG-BROTHER}`
+* Which message is displayed in the video stream? `FLAG {BIG-BROTHER}`
+
+**7.1 Decryption of TLS sessions**
+* Among the hidden messages are `Sniffing the glue that holds the Internet together.` and `It's a great product with a great story to tell. I'm pumped!`
