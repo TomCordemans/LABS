@@ -776,7 +776,11 @@ The handshake can also be visualized in Wireshark using the display filter `eapo
 8. Below you will find the settings to decrypt the captured wireless network traffic.
 Select `Edit` → `Preferences` → `Protocols` → `IEEE 802.11` → `Decryption keys Edit`
 
+![Success](./assets/wlan-keys.png)
 
+9. After a successful decryption, we can clearly visualize different protocols, such as ARP.
+
+![Success](./assets/wlan-arp.png)
 
 
 
