@@ -728,10 +728,32 @@ The following section provides a overview of the approach applied within Wiresha
 The path for the initial file can be defined by the user.   
 The file path associated with Google Chrome is dependent on the specific system configuration.   
 
-- Step 4: 
+- Step 4: Click `Launch` to open the web browser, then start using it. For example, navigate to the Wireshark website.
 
+![Success](./assets/wireshark.png)
 
+- Step 5: Shut down the web browser and terminate the capture.
 
+- Step 6: Look for the communication between your client and Wireshark’s web server.
+
+![Success](./assets/TLSencrypt.png)
+
+The observed network traffic remains encrypted.
+
+- Step 7: Select `Edit` → `Preferences` → `Protocols` → `TLS` → `(Pre)-Master-Secret log filename Browse`
+
+![Success](./assets/TLSkeys.png)
+
+- Step 8: Re-examine the communication between your client and Wireshark's web server.
+
+![Success](./assets/TLSdecrypt.png)
+
+The network traffic is no longer encrypted!!!
+
+- Step 9: Inject the secrets into the capture file. (Optional)
+
+To decrypt the traffic, you currently need both the keys.txt file and the capture file, which is not very convenient. It’s better to inject the secrets directly into your capture file.   
+This can be done easily via `Edit` → `Inject TLS Secrets`.   
 
 ## 8 Wireless LAN
 
