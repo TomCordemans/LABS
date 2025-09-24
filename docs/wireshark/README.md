@@ -806,9 +806,10 @@ The next exercise will use the topology illustrated below.
 
 ![Success](./assets/topology.png)
 
-The captured baseline [baseline.pcapng](https://www.tomcordemans.net/baseline.pcapng) is available as a reference.    
+A baseline [baseline.pcapng](https://www.tomcordemans.net/baseline.pcapng) is available as a reference.    
+By configuring port mirroring, the traffic from port Fa0/3 was duplicated onto port Fa0/13.    
 
-* Scenario 1:
+* Scenario 1:   
 On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?   
 File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)   
 
