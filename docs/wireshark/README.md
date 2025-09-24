@@ -759,7 +759,7 @@ This can be done easily via `Edit` → `Inject TLS Secrets`.
 The Wireshark.org website contains several hidden messages. Can you identify them by analyzing the network traffic?   
 (Hint: x-slogan)
 
-**7.2 The Value of Baselining**
+**7.2 The Value of baselining**
 
 Baselining is the process of capturing network traffic under normal operating conditions. When network issues occur (for example, a security breach), the baseline allows you to more quickly determine whether specific network traffic is abnormal.   
 In other words, baselining increases both efficiency and effectiveness in troubleshooting.   
