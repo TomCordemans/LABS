@@ -900,6 +900,10 @@ A quick analysis of network traffic can be obtained using the following command:
 
 ## 10 Other sources
 
+[Wireshark documentation](https://www.wireshark.org/docs/)    
+
+[Wireshark wiki](https://wiki.wireshark.org/)    
+
 ## 11 Answers
 
 **1.3. First exploration**
