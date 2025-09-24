@@ -759,6 +759,49 @@ This can be done easily via `Edit` → `Inject TLS Secrets`.
 The Wireshark.org website contains several hidden messages. Can you identify them by analyzing the network traffic?   
 (Hint: x-slogan)
 
+**7.2 The Value of Baselining**
+
+Baselining is the process of capturing network traffic under normal operating conditions. When network issues occur (for example, a security breach), the baseline allows you to more quickly determine whether specific network traffic is abnormal.   
+In other words, baselining increases both efficiency and effectiveness in troubleshooting.   
+
+Key aspects to consider during baselining include:
+
+* Broadcast and multicast types   
+  * Who is performing broadcasts/multicasts?
+  * Which applications are using broadcast/multicast?
+  * What is the volume of broadcast/multicast traffic (packets per second)?
+  * …
+
+* Protocols and applications   
+
+  * Which applications/protocols are using the network?
+  * Which ports are in use (UDP/TCP)?
+  * Is there ICMP traffic on the network?
+  * …
+
+* Bootup sequences   
+  * How does the DHCP process unfold?
+  * Which applications generate network traffic during computer startup?
+  * …
+
+* User logon/logoff   
+  * Is there any reconnaissance activity?
+  * Which servers does the client contact?
+  * How many packets are transmitted during logon/logoff?
+  * …
+
+* Network traffic in idle state   
+  * Which applications generate traffic while the system is idle?
+  * Who is being contacted during idle state?
+  * …
+
+* Startup of core Tasks (critical applications)   
+  * Is there any reconnaissance activity?
+  * Which ports are in use (UDP/TCP)?
+  * How many packets are transmitted when starting these core tasks?
+  * Is any sensitive information visible in clear text?
+  * …
+
 
 ## 8 Wireless LAN
 
