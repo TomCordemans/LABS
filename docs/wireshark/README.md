@@ -989,3 +989,8 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 
 **7.1 Decryption of TLS sessions**
 * Among the hidden messages are `Sniffing the glue that holds the Internet together.` and `It's a great product with a great story to tell. I'm pumped!`
+
+**7.2 The Value of baselining**
+* Scenario 1:   
+The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.
+
