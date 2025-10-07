@@ -810,10 +810,10 @@ A baseline [baseline.pcapng](https://www.tomcordemans.net/baseline.pcapng) is av
 By configuring port mirroring, the traffic from port Fa0/3 was duplicated onto port Fa0/13.    
 
  **Question:** 
-On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?   
+On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?
 File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)   
 
-**7.3 OT (Operational technology) Networks**
+**7.3 OT (Operational technology) networks**
 
 PROFINET (Process Field Network) is an industrial Ethernet standard used for real-time data exchange between controllers (like PLCs) and field devices (like sensors, actuators, and drives) in automation systems.   
 
@@ -850,8 +850,7 @@ Based on the drive’s datasheet, the following values can be identified:
 - 0x4000: Actual speed is 100% of the maximum
 
 **Question:**
-
-
+If the maximum speed is defined as 400 rpm, what is the current speed at frame 4619?
 
 ## 8 Wireless LAN
 
@@ -1029,5 +1028,7 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 * Among the hidden messages are `Sniffing the glue that holds the Internet together.` and `It's a great product with a great story to tell. I'm pumped!`
 
 **7.2 The Value of baselining**
-*   What is the likely cause? `The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.`
+* What is the likely cause? `The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.`
 
+**7.3 OT (Operational technology) networks**
+* What is the current speed at frame 4619? `The value 0x2002 corresponds to approximately 50% of the maximum speed. Therefore, the current speed is 200 rpm, while the motor remains in the ON state.`
