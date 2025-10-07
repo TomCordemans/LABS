@@ -813,14 +813,22 @@ By configuring port mirroring, the traffic from port Fa0/3 was duplicated onto p
 On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?   
 File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)   
 
-**7.3 OT Networks**
+**7.3 OT (Operational technology) Networks**
 
 PROFINET (Process Field Network) is an industrial Ethernet standard used for real-time data exchange between controllers (like PLCs) and field devices (like sensors, actuators, and drives) in automation systems.   
 
 ![Success](./assets/profinet.png)   
 
 This communication protocol will be examined through the use of a realistic example.   
- File to be used: [profinet.pcapng](https://www.tomcordemans.net/profinet.pcapng) 
+File to be used: [profinet.pcapng](https://www.tomcordemans.net/profinet.pcapng)   
+
+During operation, the PLC and drive continuously exchange data in real-time (RT).   
+- The PLC sends control data (e.g., start/stop, speed setpoint, direction).   
+- The drive sends status data (e.g., current speed, torque, fault codes).   
+These data exchanges occur at deterministic cycle times.   
+
+The MAC address of the PLC is 28:63:36:88:08:65 and the MAC address of the driver is 68:3e:02:13:1c:ae .
+
 
 
 ## 8 Wireless LAN
