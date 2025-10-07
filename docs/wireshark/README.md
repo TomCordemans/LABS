@@ -829,6 +829,29 @@ These data exchanges occur at deterministic cycle times.
 
 The MAC address of the PLC is 28:63:36:88:08:65 and the MAC address of the driver is 68:3e:02:13:1c:ae .
 
+The communication between the PLC and the drive includes, among other elements, a control word and the speed setpoint.   
+
+![Success](./assets/plc2drive.png)   
+
+Based on the PLC’s datasheet, the following values can be identified:
+
+0x047F: Motor ON
+0x047E: Motor OFF
+0x0000: Speed setpoint at 0%
+0x4000: Speed setpooint at 100%
+
+The communication between the drive and the PLC includes, among other elements, a status word and the actual speed value.   
+
+![Success](./assets/drive2plc.png)   
+
+Based on the drive’s datasheet, the following values can be identified:
+
+0xEFB7: Motor ON
+0xEBB1: Motor OFF
+0x0000: Actual speed is 0% of the maximum
+0x4000: Actual speed is 100% of the maximum
+
+
 
 
 ## 8 Wireless LAN
