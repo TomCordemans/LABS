@@ -822,9 +822,9 @@ File to be used: [profinet.pcapng](https://www.tomcordemans.net/profinet.pcapng)
 
 During operation, the PLC and drive continuously exchange data in real-time (RT).   
 - The PLC sends control data (e.g., start/stop, speed setpoint, direction).   
-- The drive sends status data (e.g., current speed, torque, fault codes).    
-These data exchanges occur at deterministic cycle times.   
+- The drive sends status data (e.g., current speed, torque, fault codes).  
 
+These data exchanges occur at deterministic cycle times.   
 The MAC address of the PLC is 28:63:36:88:08:65 and the MAC address of the drive is 68:3E:02:13:1C:AE .
 
 The communication between the PLC and the drive includes, among other elements, a control word and the speed setpoint.   
