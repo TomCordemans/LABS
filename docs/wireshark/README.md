@@ -759,7 +759,7 @@ This can be done easily via `Edit` → `Inject TLS Secrets`.
 The Wireshark.org website contains several hidden messages. Can you identify them by analyzing the network traffic?   
 (Hint: x-slogan)
 
-**7.2 The Value of baselining**
+**7.2 The value of baselining**
 
 Baselining is the process of capturing network traffic under normal operating conditions. When network issues occur (for example, a security breach), the baseline allows you to more quickly determine whether specific network traffic is abnormal.   
 In other words, baselining increases both efficiency and effectiveness in troubleshooting.   
@@ -813,6 +813,14 @@ By configuring port mirroring, the traffic from port Fa0/3 was duplicated onto p
 On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?   
 File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)   
 
+**7.3 OT Networks**
+
+PROFINET (Process Field Network) is an industrial Ethernet standard used for real-time data exchange between controllers (like PLCs) and field devices (like sensors, actuators, and drives) in automation systems.   
+
+![Success](./assets/profinet.png)   
+
+This communication protocol will be examined through the use of a realistic example.   
+ File to be used: [profinet.pcapng](https://www.tomcordemans.net/profinet.pcapng) 
 
 
 ## 8 Wireless LAN
