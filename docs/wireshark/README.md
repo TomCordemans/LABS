@@ -809,7 +809,7 @@ The next exercise will use the topology illustrated below.
 A baseline [baseline.pcapng](https://www.tomcordemans.net/baseline.pcapng) is available as a reference.    
 By configuring port mirroring, the traffic from port Fa0/3 was duplicated onto port Fa0/13.    
 
-* Scenario 1:   
+ **Question:** 
 On PC1, the user experiences a slight performance delay, but overall functionality remains intact. What is the likely cause?   
 File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)   
 
@@ -833,24 +833,23 @@ The communication between the PLC and the drive includes, among other elements, 
 
 ![Success](./assets/plc2drive.png)   
 
-Based on the PLC’s datasheet, the following values can be identified:
-
-0x047F: Motor ON
-0x047E: Motor OFF
-0x0000: Speed setpoint at 0%
-0x4000: Speed setpooint at 100%
+Based on the PLC’s datasheet, the following values can be identified:   
+- 0x047F: Motor ON
+- 0x047E: Motor OFF
+- 0x0000: Speed setpoint at 0%
+- 0x4000: Speed setpoint at 100%
 
 The communication between the drive and the PLC includes, among other elements, a status word and the actual speed value.   
 
 ![Success](./assets/drive2plc.png)   
 
-Based on the drive’s datasheet, the following values can be identified:
+Based on the drive’s datasheet, the following values can be identified:   
+- 0xEFB7: Motor ON
+- 0xEBB1: Motor OFF
+- 0x0000: Actual speed is 0% of the maximum
+- 0x4000: Actual speed is 100% of the maximum
 
-0xEFB7: Motor ON
-0xEBB1: Motor OFF
-0x0000: Actual speed is 0% of the maximum
-0x4000: Actual speed is 100% of the maximum
-
+**Question:**
 
 
 
@@ -1030,6 +1029,5 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 * Among the hidden messages are `Sniffing the glue that holds the Internet together.` and `It's a great product with a great story to tell. I'm pumped!`
 
 **7.2 The Value of baselining**
-* Scenario 1:   
-The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.
+*   What is the likely cause? `The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.`
 
