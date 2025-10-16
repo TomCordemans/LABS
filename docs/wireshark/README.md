@@ -864,7 +864,13 @@ File to be used: [bacnet.pcapng](https://www.tomcordemans.net/bacnet.pcapng)
 
 A BACnet Who-Is message is a broadcast request that devices on a BACnet network send to discover other devices and their addresses. When a device sends a Who-Is message, all other compatible devices on the network respond with an I-Am message, which provides their device instance number, IP address, and other information.  
 
+The structure and contents of a Who-Is message are illustrated below.   
+ 
 ![Success](./assets/bacnet-whois.png)
+
+The structure and contents of a I-Am message are illustrated below. 
+
+![Success](./assets/bacnet-iam.png)
 
 
 
