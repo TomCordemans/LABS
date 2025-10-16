@@ -862,6 +862,11 @@ The YABE (Yet Another BACnet Explorer) application will be utilized to generate 
 This communication protocol will be examined through the use of previous setup.   
 File to be used: [bacnet.pcapng](https://www.tomcordemans.net/bacnet.pcapng)   
 
+A BACnet Who-Is message is a broadcast request that devices on a BACnet network send to discover other devices and their addresses. When a device sends a Who-Is message, all other compatible devices on the network respond with an I-Am message, which provides their device instance number, IP address, and other information.  
+
+![Success](./assets/bacnet-whois.png)
+
+
 
 ## 8 Wireless LAN
 
