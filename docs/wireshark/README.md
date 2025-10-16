@@ -1065,8 +1065,8 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 **7.2 The Value of baselining**
 * What is the likely cause? `The usual approach is to compare the current capture with a baseline to spot anomalies. In error1.pcpang we observe traffic on a switch port that should not occur, such as communication between 172.20.0.2 and 17.20.0.1. This indicates the switch’s function is bypassed, possibly due to a MITM attack.`
 
-**7.3 OT (Operational technology) networks**
-**7.3.1 PROFINET**
-* What is the current speed at frame 4619? `The value 0x2002 corresponds to approximately 50% of the maximum speed. Therefore, the current speed is 200 rpm, while the motor remains in the ON state.`
-**7.3.2 BACnet**
+**7.3 OT (Operational Technology) networks**    
+**7.3.1 PROFINET**    
+* What is the current speed at frame 4619? `The value 0x2002 corresponds to approximately 50% of the maximum speed. Therefore, the current speed is 200 rpm, while the motor remains in the ON state.`    
+**7.3.2 BACnet**    
 * Can you retrieve the temperature recorded on October 14, 2025, at 13:44:04 UTC? `20,80 °C`    
