@@ -813,7 +813,7 @@ File to be used: [error1.pcapng](https://www.tomcordemans.net/error1.pcapng)
 
 **7.3 OT (Operational Technology) networks**
 
-- PROFINET
+**7.3.1 PROFINET**
 
 PROFINET (Process Field Network) is an industrial Ethernet standard used for real-time data exchange between controllers (like PLCs) and field devices (like sensors, actuators, and drives) in automation systems.   
 
@@ -852,7 +852,7 @@ Based on the drive’s datasheet, the following values can be identified:
 **Question:**
 If the maximum speed is defined as 400 rpm, what is the current speed at frame 4619?
 
-- BACnet
+**7.3.2 BACnet**
 
 BACnet (Building Automation and Control Network) is a communication protocol designed specifically for building automation and control systems.
 The YABE (Yet Another BACnet Explorer) application will be utilized to generate BACnet communication traffic.
