@@ -872,6 +872,13 @@ The structure and contents of a I-Am message are illustrated below.
 
 ![Success](./assets/bacnet-iam.png)
 
+Beginning with frame 8, Wireshark no longer identifies the network traffic as BACnet. This issue can be easily resolved by following the steps below. The default BACnet port number is 47808, which operates over the UDP protocol.
+
+![Success](./assets/bacnet-decode.png)
+
+Select BVLC (BACnet Virtual Link Control)
+
+![Success](./assets/bacnet-bvlc.png)
 
 
 ## 8 Wireless LAN
