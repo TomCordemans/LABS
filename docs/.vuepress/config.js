@@ -13,7 +13,6 @@ module.exports = {
       ['/', 'Home'],
       ['/wireshark/', 'Wireshark course'],
       ['/cyberops-labs/', 'CyberOps labs'],
-      ['/arp-spoofing-mitm/', 'ARP spoofing (MITM)'],
       ['/attack-the-sam-database/', 'Attack the SAM database'],
       [
         '/capture-packets-of-a-remote-system/',
