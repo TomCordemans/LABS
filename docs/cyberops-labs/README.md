@@ -1,8 +1,8 @@
 ---
-title: ARP spoofing (MITM)
+title: Additional Labs for Netacad CyberOps Associate
 ---
 
-# ARP spoofing (MITM)
+## 1 ARP spoofing (MITM)
 
 1. Goal
     * Intercept the communication between 2 devices in a switched network.
