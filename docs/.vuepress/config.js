@@ -13,7 +13,6 @@ module.exports = {
       ['/', 'Home'],
       ['/wireshark/', 'Wireshark course'],
       ['/cyberops-labs/', 'CyberOps labs'],
-      ['/dtp-attack/', 'DTP attack'],
       ['/mac-flooding/', 'MAC flooding'],
       ['/metasploit-framework/', 'Metasploit Framework'],
       ['/password-guessing-attack/', 'Password guessing attack'],
