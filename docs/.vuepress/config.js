@@ -12,10 +12,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       ['/wireshark/', 'Wireshark course'],
-      ['/cyberops-labs/', 'CyberOps labs'],
-      ['/steganography/', 'Steganography'],
-      ['/wireless-sniffing/', 'Wireless sniffing'],
-      ['/wireless-capturing/', 'Wireless capturing']
+      ['/cyberops-labs/', 'CyberOps labs']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
