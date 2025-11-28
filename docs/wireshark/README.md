@@ -992,6 +992,16 @@ Start the capture, connect the external keyboard, press a few keys, and then sto
 
 ![Success](./assets/usbpcap-result.png)
 
+Apply a display filter to identify the keystrokes.`((usb.transfer_type == 0x01) && (usb.src == "1.16.1")) && !(usbhid.data.array == 00:00:00:00:00:00)` Our focus is limited to incoming interrupt packets originating from the keyboard that contain a non-zero data field.
+
+By examining the HID data, we can identify the keystrokes.
+
+![Success](./assets/usbpcap-key.png)
+
+**Question:**
+Can you determine which word the user typed? Note: The user was using a Belgian (Dutch) keyboard layout.   
+File to be used: [usb-keyboard.pcapng](https://www.tomcordemans.net/usb-keyboard.pcapng)   
+
 ## 10 Nice to know
 
 **10.1 Add notes to a PCAPng file**
