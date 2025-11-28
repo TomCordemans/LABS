@@ -962,14 +962,27 @@ Select `Edit` → `Preferences` → `Protocols` → `IEEE 802.11` → `Decryptio
 
 USB traffic works through a host-controlled, packet-based system where the host initiates all communication. When a device is plugged in, the host runs an enumeration process to identify the device and its capabilities. After enumeration, data is sent in packets, with the host requesting data from a device and the device sending it back in response. This process relies on defined data transfer types like bulk, interrupt, and isochronous, and is managed by rules for error handling and power management.
 
-**9.1 USBPcap**
+**9.1 Installing USBPcap**
 
 To capture USB traffic with Wireshark, you must first install an additional tool specific to your operating system: [USBPcap](https://desowin.org/usbpcap/).
 
 By checking the "Install USBPcap" box in the Wireshark installer, you add the necessary driver and files to your system, allowing Wireshark to list and capture data from USB devices.
 
-![Success](./assets/usbpcacp.png)
+![Success](./assets/usbpcap.png)
 
+**9.2 Using USBPcap**
+
+After installing USBPcap, start Wireshark. You will see multiple USBPcap interfaces. You need to determine which interface your USB device (the device under test) is connected to. For example, I connected an additional keyboard to my laptop.
+
+- Before connecting the additional keyboard
+
+![Success](./assets/usbpcap1.png)
+
+![Success](./assets/usbpcap-before.png)
+
+- After connecting the additional keyboard
+
+![Success](./assets/usbpcap-after.png)
 
 
 ## 10 Nice to know
