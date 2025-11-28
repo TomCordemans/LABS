@@ -984,6 +984,13 @@ After installing USBPcap, start Wireshark. You will see multiple USBPcap interfa
 
 ![Success](./assets/usbpcap-after.png)
 
+Disconnect the additional keyboard before starting the capture, and select “Capture from newly connected devices” only.
+
+![Success](./assets/usbpcap-capture.png)
+
+Start the capture, connect the external keyboard, press a few keys, and then stop the capture.
+
+![Success](./assets/usbpcap-result.png)
 
 ## 10 Nice to know
 
