@@ -958,9 +958,23 @@ Select `Edit` → `Preferences` → `Protocols` → `IEEE 802.11` → `Decryptio
 
 ![Success](./assets/wlan-arp.png)
 
-## 9 Nice to know
+## 9 Universal Serial Bus (USB)
 
-**9.1 Add notes to a PCAPng file**
+USB traffic works through a host-controlled, packet-based system where the host initiates all communication. When a device is plugged in, the host runs an enumeration process to identify the device and its capabilities. After enumeration, data is sent in packets, with the host requesting data from a device and the device sending it back in response. This process relies on defined data transfer types like bulk, interrupt, and isochronous, and is managed by rules for error handling and power management.
+
+**9.1 USBPcap**
+
+To capture USB traffic with Wireshark, you must first install an additional tool specific to your operating system: [USBPcap](https://desowin.org/usbpcap/).
+
+By checking the "Install USBPcap" box in the Wireshark installer, you add the necessary driver and files to your system, allowing Wireshark to list and capture data from USB devices.
+
+![Success](./assets/usbpcacp.png)
+
+
+
+## 10 Nice to know
+
+**10.1 Add notes to a PCAPng file**
 
 Comprehensive documentation is of paramount importance, as it serves as the foundation for effective troubleshooting. Annotations may be applied to PCAPpng files, whereas PCAP files do not support this feature.   
 An exercise will be used to help clarify certain concepts.   
@@ -996,7 +1010,7 @@ This information can later be easily retrieved in various ways.
 
 ![Success](./assets/notes5.png)
 
-**9.2 Command line tools**
+**10.2 Command line tools**
 
 By default, a Wireshark installation includes several command line tools. Below is an overview of some commonly used tools.   
 - **Editcap**: Converts capture files in various ways.   
@@ -1025,13 +1039,13 @@ A quick analysis of network traffic can be obtained using the following command:
 
 ![Success](./assets/tshark3.png)
 
-## 10 Other sources
+## 11 Other sources
 
 [Wireshark documentation](https://www.wireshark.org/docs/)    
 
 [Wireshark wiki](https://wiki.wireshark.org/)    
 
-## 11 Answers
+## 12 Answers
 
 **1.3. First exploration**
 * How many packets does this PCPAng file contain? `3200`
