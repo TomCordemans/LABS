@@ -1113,4 +1113,7 @@ Add an extra column `tcp.time_delta` and use the display filter `tcp.time_delta 
 **7.3.1 PROFINET**    
 * What is the current speed at frame 4619? `The value 0x2002 corresponds to approximately 50% of the maximum speed. Therefore, the current speed is 200 rpm, while the motor remains in the ON state.`    
 **7.3.2 BACnet**    
-* Can you retrieve the temperature recorded on October 14, 2025, at 13:44:04 UTC? `20,80 °C`    
+* Can you retrieve the temperature recorded on October 14, 2025, at 13:44:04 UTC? `20,80 °C` 
+
+**9.2 Using USBPcap**
+* Can you determine which word the user typed? `Password!`
