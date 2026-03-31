@@ -1078,8 +1078,11 @@ They are commonly used to:
 - Add new analysis features or filters
 - Automate tasks within packet analysis
 
-Lua plugins load without recompiling Wireshark, making them a flexible way to customize how network traffic is analyzed and displayed.
+Lua plugins load without recompiling Wireshark, making them a flexible way to customize how network traffic is analyzed and displayed.   
 
+A screenshot of a Lua script is shown below.    
+
+![Success](./assets/luascript.png)
 
 
 ## 11 Other sources
