@@ -1069,7 +1069,16 @@ A quick analysis of network traffic can be obtained using the following command:
 
 ![Success](./assets/tshark3.png)
 
-**10.3 LUA plugins**
+**10.3 Lua plugins**
+
+Lua plugins in Wireshark are scripts written in the Lua programming language that extend Wireshark’s functionality.   
+
+They are commonly used to:   
+- Create custom protocol dissectors (to decode proprietary or unsupported protocols)
+- Add new analysis features or filters
+- Automate tasks within packet analysis
+
+Lua plugins load without recompiling Wireshark, making them a flexible way to customize how network traffic is analyzed and displayed.
 
 
 
