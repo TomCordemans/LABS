@@ -1082,8 +1082,21 @@ Lua plugins load without recompiling Wireshark, making them a flexible way to cu
 
 A screenshot of a Lua script is shown below.    
 
-![Success](./assets/luascript.png)
+![Success](./assets/luascript.png)   
 
+Below you will find the Lua script used in this example.    
+
+[cert_info.lua](https://www.tomcordemans.net/cert_info.lua)   
+
+Place the Lua script in the appropriate folder. The folder locations can be found via `Help` → `About Wireshark` → `Folders`.    
+
+![Success](./assets/folders.png)    
+
+Once the file is placed correctly and Wireshark has been restarted, you will be able to use the additional functionality described in the LUA script.    
+
+![Success](./assets/script-folder.png)   
+
+![Success](./assets/certs.png)   
 
 ## 11 Other sources
 
