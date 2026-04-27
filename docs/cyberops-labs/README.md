@@ -1686,7 +1686,7 @@ title: Additional Labs for Netacad CyberOps Associate
 
     *  This tool is very useful in bypassing Data Loss Prevention (DLP) and antivirus detection.
 
-## OSPFv2 authentication (Under construction)
+## OSPFv2 authentication
 
 1. Goal
     * Open Shortest Path First authentication is employed to prevent rogue routers from participating in the routing domain. Several authentication types are available in Open Shortest Path Firstv2. However, not all of these mechanisms provide an equivalent level of cybersecurity. 
@@ -1734,3 +1734,9 @@ title: Additional Labs for Netacad CyberOps Associate
     4. The success of this attack can be demonstrated using an AI-generated Python script together with a dictionary file containing candidate shared secrets.
 
     ![Success](./assets/ospfv2-attack.png)
+
+    The script can be downloaded [here](https://www.tomcordemans.net/OSPF-crack.py). 
+
+6. Conclusion
+
+    *  The practicality of this attack depends largely on the entropy of the configured shared secret. Weak, short, or dictionary-based keys may be recovered quickly, whereas long, random, high-entropy keys are significantly more resistant to such attacks.
