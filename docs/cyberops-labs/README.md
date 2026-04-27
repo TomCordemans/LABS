@@ -1685,3 +1685,21 @@ title: Additional Labs for Netacad CyberOps Associate
 6. Conclusion
 
     *  This tool is very useful in bypassing Data Loss Prevention (DLP) and antivirus detection.
+
+## OSPFv2 authentication (Under construction)
+
+1. Goal
+    * Open Shortest Path First authentication is employed to prevent rogue routers from participating in the routing domain. Several authentication types are available in Open Shortest Path Firstv2. However, not all of these mechanisms provide an equivalent level of cybersecurity. 
+
+2. Used hardware
+    * 1 laptop with Kali Linux
+    * 3 Cisco routers
+
+3. Used software
+    * Kali Linux (2026.1)
+
+4. Setup
+    
+    ![Success](./assets/ospfv2-setup.png)
+
+5. Getting started
