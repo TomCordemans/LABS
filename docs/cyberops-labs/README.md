@@ -1717,7 +1717,7 @@ title: Additional Labs for Netacad CyberOps Associate
     ![Success](./assets/ospfv2-type1.png)
 
     **Type 2: Cryptographic Authentication**
-    Instead of transmitting the authentication key itself, the router appends a cryptographic hash (traditionally using MD5) to each OSPF packet. The receiving router independently computes the hash using its locally configured key and verifies packet integrity and authenticity. If the computed and received hashes match, the packet is accepted.
+    Instead of transmitting the authentication key itself, the router appends a cryptographic hash (traditionally using [MD5](https://en.wikipedia.org/wiki/MD5)) to each OSPF packet. The receiving router independently computes the hash using its locally configured key and verifies packet integrity and authenticity. If the computed and received hashes match, the packet is accepted.
 
     ![Success](./assets/ospfv2-type2.png)
 
