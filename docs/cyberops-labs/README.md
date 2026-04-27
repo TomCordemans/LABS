@@ -1714,8 +1714,9 @@ title: Additional Labs for Netacad CyberOps Associate
     **Type 1: Simple Password Authentication**
     A plaintext password is included in every OSPF packet. Neighboring routers must be configured with the same password to establish adjacency. While this method provides basic access control, it is inherently insecure because the password is transmitted in clear text and can be easily intercepted through packet capture.
 
-     ![Success](./assets/ospfv2-type1.png)
+    ![Success](./assets/ospfv2-type1.png)
 
     **Type 2: Cryptographic Authentication**
     Instead of transmitting the authentication key itself, the router appends a cryptographic hash—traditionally using MD5—to each OSPF packet. The receiving router independently computes the hash using its locally configured key and verifies packet integrity and authenticity. If the computed and received hashes match, the packet is accepted.
 
+    ![Success](./assets/ospfv2-type2.png)
