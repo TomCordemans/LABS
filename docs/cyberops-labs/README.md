@@ -1709,7 +1709,7 @@ title: Additional Labs for Netacad CyberOps Associate
     **1. Null Authentication (Type 0)**
     No authentication information is exchanged. Any router configured for the same OSPF area and network parameters can form an adjacency. This mode provides no protection against unauthorized or malicious routers and is therefore unsuitable for security-sensitive environments.
 
-    
+    ![Success](./assets/ospfv2-type0.png)
 
     **2. Simple Password Authentication (Type 1)**
     A plaintext password is included in every OSPF packet. Neighboring routers must be configured with the same password to establish adjacency. While this method provides basic access control, it is inherently insecure because the password is transmitted in clear text and can be easily intercepted through packet capture.
