@@ -1703,3 +1703,17 @@ title: Additional Labs for Netacad CyberOps Associate
     ![Success](./assets/ospfv2-setup.png)
 
 5. Getting started
+
+    1. On Cisco routers, Open Shortest Path Firstv2 supports three authentication modes, each offering a different level of security.
+
+    **1. Null Authentication (Type 0)**
+    No authentication information is exchanged. Any router configured for the same OSPF area and network parameters can form an adjacency. This mode provides no protection against unauthorized or malicious routers and is therefore unsuitable for security-sensitive environments.
+
+    
+
+    **2. Simple Password Authentication (Type 1)**
+    A plaintext password is included in every OSPF packet. Neighboring routers must be configured with the same password to establish adjacency. While this method provides basic access control, it is inherently insecure because the password is transmitted in clear text and can be easily intercepted through packet capture.
+
+    **3. Cryptographic Authentication (Type 2)**
+    Instead of transmitting the authentication key itself, the router appends a cryptographic hash—traditionally using MD5—to each OSPF packet. The receiving router independently computes the hash using its locally configured key and verifies packet integrity and authenticity. If the computed and received hashes match, the packet is accepted.
+
