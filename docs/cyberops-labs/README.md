@@ -1720,3 +1720,17 @@ title: Additional Labs for Netacad CyberOps Associate
     Instead of transmitting the authentication key itself, the router appends a cryptographic hash—traditionally using MD5—to each OSPF packet. The receiving router independently computes the hash using its locally configured key and verifies packet integrity and authenticity. If the computed and received hashes match, the packet is accepted.
 
     ![Success](./assets/ospfv2-type2.png)
+
+    2. Because traditional OSPFv2 cryptographic authentication often relies on MD5, an attacker who has captured authenticated packets may attempt an offline dictionary or brute-force attack against weak or predictable passwords. The feasibility of such an attack depends primarily on the strength, length, and randomness of the configured secret.
+
+    3. Compromising Open Shortest Path Firstv2 cryptographic authentication (Type 2) typically involves two distinct stages.
+
+    **Extraction of the Authentication Digest**
+    When OSPFv2 Type 2 authentication is used, each OSPF packet carries a cryptographic digest, traditionally an MD5 hash, in its authentication field. This digest is computed over the OSPF packet contents combined with the shared secret. By capturing OSPF traffic on the network, an attacker can readily extract this digest from authenticated packets. Importantly, the shared secret itself is never transmitted; only the resulting hash value is observable.
+
+    **Offline Dictionary or Brute-Force Attack**
+    Once the digest has been obtained, an attacker can perform an offline password-recovery attack. This involves repeatedly guessing candidate keys, recomputing the expected MD5 digest using the captured packet data and each candidate key, and comparing the result with the captured digest. If a match is found, the correct shared secret has been identified. Because this process is conducted offline, it does not generate detectable network activity and is limited only by available computational resources and the strength of the chosen password.
+
+    4. The success of this attack can be demonstrated using an AI-generated Python script together with a dictionary file containing candidate shared secrets.
+
+    ![Success](./assets/ospfv2-attack.png)
