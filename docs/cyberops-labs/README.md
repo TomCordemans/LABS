@@ -1686,7 +1686,7 @@ title: Additional Labs for Netacad CyberOps Associate
 
     *  This tool is very useful in bypassing Data Loss Prevention (DLP) and antivirus detection.
 
-## OSPFv2 authentication
+## Combat OSPFv2 authentication
 
 1. Goal
     * Open Shortest Path First authentication is employed to prevent rogue routers from participating in the routing domain. Several authentication types are available in Open Shortest Path Firstv2. However, not all of these mechanisms provide an equivalent level of cybersecurity. 
