@@ -13,7 +13,7 @@ module.exports = {
       ['/', 'Home'],
       ['/wireshark/', 'Wireshark course'],
       ['/cyberops-labs/', 'CyberOps labs'],
-      ['/sfeu26/', 'SharkFest Europe 2026']]
+      ['/sfeu26/', 'SharkFest Europe 2026']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
