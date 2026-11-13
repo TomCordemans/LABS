@@ -12,8 +12,8 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
       ['/wireshark/', 'Wireshark course'],
-      ['/cyberops-labs/', 'CyberOps labs'],
-      ['/sfeu26/', 'SharkFest Europe 2026']
+      ['/cyberops-labs/', 'CyberOps labs']
+      //['/sfeu26/', 'SharkFest Europe 2026']
     ],
     repo: 'https://github.com/TomCordemans/LABS',
     docsDir: 'docs',
